@@ -7,7 +7,7 @@ next: The Solution
 
 Imagine having 5 seconds to memorise either (A) or (B) from the choices below.
 
-![alt text](/wordsvspattern.svg)
+![alt text](/wordsvspatterns.svg)
 
 Which one is easiest and most likely to be recalled in a stressful situation?
 
@@ -17,7 +17,7 @@ Some formally conducted [studies](https://en.wikipedia.org/wiki/Picture_superior
 
 ![alt text](/circles.svg)
 
-After being shown a random collection of words and shapes, participants had much higher levels of recall for shapes than words
+*After being shown a random collection of words and shapes, participants had much higher levels of recall for shapes than words*
 
 Being able to recognise shapes more easily than words bears out anecdotally too - we tend to remember faces more easily than names (commonsensical, given that our eye sight and facial recognition abilities predated our use of language).
 
