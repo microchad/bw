@@ -11,13 +11,14 @@ Bitcoin Border Wallets primarily solves one problem faced by many Bitcoiners; ho
 Secondarily, Border Wallets can also be used as a simple but effective method for handling Bitcoin legacy ownership transfers.
 
 Border Wallets are primarily aimed at people who:
+
 - may have difficulty securely caching physical seed backups
 - want to carry their seed words with them at all times
 - have limited access to trusted 3rd parties
 - live in areas of conflict, warzones, etc.
 - regularly travel.
 
-In practice, though, *it can be used by anybody* who wants to more easily and more reliably commit their Bitcoin seed words to memory.
+In practice, though, _it can be used by anybody_ who wants to more easily and more reliably commit their Bitcoin seed words to memory.
 
 > BorderWallets.com is currently in alpha release. Our Seed Grid Generator is available on our GH repo for Bitcoiners to start testing. We welcome feedback for improving it and ideas for making it more accessible to more people.
 

@@ -1,11 +1,6 @@
-
-
-
-
 Introducing a new way to quickly and reliably memorise Bitcoin seed phrases.
 
 (Video explainer placeholder)
-
 
 **TLDR:**
 
@@ -16,4 +11,3 @@ To assist with this process, and make it robust and secure, we have created a to
 When users generate their Entropy Grid, they apply their own choice of patterns to them, unlocking each applicable seed word to create uniquely memorable wallets; we call these wallets Border Wallets.
 
 For more information on how we do this, to access our Entropy Grid Generator, and for instructions on how to create your own Border Wallet, click here.
-
