@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100%" height="100%" viewBox="-105 -13 208 156">
+ <title>Durstenfeld shuffle</title>
+ <desc>Example of Durstenfeld's version of the Fisher-Yates shuffle to randomise the order of five letters by CMG Lee.</desc>
+ <style type="text/css">
+.main { font-family:Helvetica,Arial,sans-serif; font-size:18px; text-anchor:middle; fill:#000000; stroke:none; }
+text  { stroke:none; cursor:default; }
+ </style>
+ <pattern id="pattern_grid" patternUnits="userSpaceOnUse" width="20" height="30">
+  <rect width="20" height="20" fill="none" stroke="#999999"/>
+ </pattern>
+ <marker id="marker" markerWidth="8" markerHeight="8" refX="5" refY="4" markerUnits="userSpaceOnUse" orient="auto">
+  <path d="M 0,0 Q 4,4 8,4 Q 4,4 0,8 Q 3,4 0,0" fill="#000000"/>
+ </marker>
+ <circle cx="0" cy="0" r="99999" fill="#ffffff"/>
+ <g class="main">
+  <use xlink:href="#axis"/>
+  <g stroke="#000000" marker-end="url(#marker)" transform="translate(-10,10)">
+   <g transform="translate(0, 10)"><path d="M 100,1 V    7"/>                         </g>
+   <g transform="translate(0, 40)"><path d="M  80,1 L 20,7"/><path d="M 20,1 L 80,7"/></g>
+   <g transform="translate(0, 70)"><path d="M  60,1 V    7"/>                         </g>
+   <g transform="translate(0,100)"><path d="M  40,1 L 20,7"/><path d="M 20,1 L 40,7"/></g>
+  </g>
+  <path d="M 0,0 h 100 v 20 H 0 m 0,10 h 80 v 20 H 0 m 0,10 h 60 v 20 H 0 m 0,10 h 40 v 20 H 0" fill="#ffff00"/>
+  <rect x="0" y="0" width="100" height="145" fill="url(#pattern_grid)"/>
+  <g font-size="12" text-anchor="end" transform="translate(-4,8)">
+   <text x="0" y="10" ><tspan>From 1&#8211;5, rolled 5</tspan><tspan x="-61" dy="11">&#8756;&#8201;pass</tspan></text>
+   <text x="0" y="40" ><tspan>From 1&#8211;4, rolled 1</tspan><tspan x="0"   dy="12">&#8756;&#8201;swap cells 4 &amp; 1</tspan></text>
+   <text x="0" y="70" ><tspan>From 1&#8211;3, rolled 3</tspan><tspan x="-61" dy="11">&#8756;&#8201;pass</tspan></text>
+   <text x="0" y="100"><tspan>From 1&#8211;2, rolled 1</tspan><tspan x="0"   dy="12">&#8756;&#8201;swap cells 2 &amp; 1</tspan></text>
+   <text x="0" y="130"><tspan>Done</tspan><tspan font-style="italic">!</tspan></text>
+  </g>
+  <text x="-16" y="-7" dy="0.7ex" font-size="12"><tspan>Cells</tspan><tspan x="10">1</tspan><tspan x="30">2</tspan><tspan x="50">3</tspan><tspan x="70">4</tspan><tspan x="90">5</tspan></text>
+  <text x="10" y="10"  dy="0.7ex"><tspan>E</tspan><tspan x="30">L</tspan><tspan x="50">V</tspan><tspan x="70">I</tspan><tspan x="90">S</tspan></text>
+  <text x="10" y="40"  dy="0.7ex"><tspan>E</tspan><tspan x="30">L</tspan><tspan x="50">V</tspan><tspan x="70">I</tspan><tspan x="90">S</tspan></text>
+  <text x="10" y="70"  dy="0.7ex"><tspan>I</tspan><tspan x="30">L</tspan><tspan x="50">V</tspan><tspan x="70">E</tspan><tspan x="90">S</tspan></text>
+  <text x="10" y="100" dy="0.7ex"><tspan>I</tspan><tspan x="30">L</tspan><tspan x="50">V</tspan><tspan x="70">E</tspan><tspan x="90">S</tspan></text>
+  <text x="10" y="130" dy="0.7ex"><tspan>L</tspan><tspan x="30">I</tspan><tspan x="50">V</tspan><tspan x="70">E</tspan><tspan x="90">S</tspan></text>
+ </g>
+</svg>

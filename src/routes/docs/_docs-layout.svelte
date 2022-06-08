@@ -9,20 +9,17 @@
   <div class="prev">
     {#if previous}
       <span>PREVIOUS</span>
-      <a href="/docs/{previous === 'start' ? 'index' : previous}"
-        >{previous.slice(0, 1).toUpperCase() + previous.slice(1)}</a
+      <a
+        href="/docs/{previous === 'start'
+          ? ''
+          : previous.trim().toLowerCase().replaceAll(' ', '-')}">{previous}</a
       >
     {/if}
   </div>
   <div class="next">
     {#if next}
       <span>NEXT</span>
-      <a href="/docs/{next}"
-        >{next
-          .split('-')
-          .map((w) => `${w.slice(0, 1).toUpperCase()}${w.slice(1)}`)
-          .join(' ')}</a
-      >
+      <a href="/docs/{next.trim().toLowerCase().replaceAll(' ', '-')}">{next}</a>
     {/if}
   </div>
 </div>

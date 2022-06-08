@@ -8,7 +8,7 @@
   --primary-color: #b9c6d2;
   --secondary-color: #d0dde9;
   --tertiary-color: #edf0f8;
-  --accent-color: #ff1100;
+  --accent-color: #b54400;
   --heading-color: rgba(0, 0, 0, 0.7);
   --text-color: #444444;
   --background-without-opacity: rgba(255, 255, 255, 0.7);
@@ -31,15 +31,31 @@ body {
 
 img {
   max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 blockquote {
-  border-left: 0.3rem solid var(--a-dark);
+  border-left: 0.3rem solid var(--accent-color);
   border-radius: 0.3rem;
-  padding-left: 1em;
+  padding: 1rem;
+  background-color: var(--background-without-opacity);
 }
 
 a {
   color: var(--accent-color);
-  text-decoration: none;
+}
+
+caption {
+  font-size: small;
+}
+
+ul.contains-task-list {
+  list-style-type: none;
+}
+
+ul.contains-task-list > li {
+  padding-left: 2rem;
+  text-indent: -2rem;
 }
