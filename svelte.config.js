@@ -1,4 +1,5 @@
 import adapter from '@sveltejs/adapter-auto';
+import { mdsvex } from 'mdsvex';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -9,7 +10,16 @@ const config = {
     methodOverride: {
       allowed: ['PATCH', 'DELETE']
     }
-  }
+  },
+  extensions: ['.svelte', '.md'],
+  preprocess: [
+    mdsvex({
+      extensions: ['.md'],
+      layout: {
+        docs: 'src/routes/docs/_docs-layout.svelte'
+      }
+    })
+  ]
 };
 
 export default config;

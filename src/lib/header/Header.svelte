@@ -1,47 +1,55 @@
 <script>
   import { page } from '$app/stores';
-  import logo from './svelte-logo.svg';
+  import logo from './bw.svg';
+  let navOpen = false;
+  function toggleNav(){
+    navOpen = !navOpen;
+  }
 </script>
 
 <header>
   <div class="corner">
-    <a href="https://kit.svelte.dev">
-      <img src={logo} alt="SvelteKit" />
+    <a href="/">
+      <img src={logo} alt="BorderWallets.com" />
     </a>
   </div>
 
-  <nav>
-    <svg viewBox="0 0 2 3" aria-hidden="true">
-      <path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
+  
+  <div class="corner">
+    <svg class="ham hamRotate ham4 {navOpen ? 'active' : ''}" viewBox="0 0 100 100" width="80" on:click={toggleNav}>
+      <path
+      class="line top"
+      d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+      <path
+      class="line middle"
+      d="m 70,50 h -40" />
+      <path
+      class="line bottom"
+      d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
     </svg>
+  </div>
+  <nav class="{navOpen ? 'active' : ''}" >
     <ul>
       <li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-      <li class:active={$page.url.pathname === '/about'}>
-        <a sveltekit:prefetch href="/about">About</a>
-      </li>
-      <li class:active={$page.url.pathname === '/todos'}>
-        <a sveltekit:prefetch href="/todos">Todos</a>
+      <li class:active={$page.url.pathname === '/docs'}>
+        <a sveltekit:prefetch href="/docs">Documentation</a>
       </li>
     </ul>
-    <svg viewBox="0 0 2 3" aria-hidden="true">
-      <path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
-    </svg>
   </nav>
-
-  <div class="corner">
-    <!-- TODO put something else here? github link? -->
-  </div>
 </header>
 
 <style>
   header {
     display: flex;
     justify-content: space-between;
+    background-color: var(--a-dark);
   }
 
   .corner {
-    width: 3em;
-    height: 3em;
+    width: 7rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
   }
 
   .corner a {
@@ -53,46 +61,48 @@
   }
 
   .corner img {
-    width: 2em;
-    height: 2em;
+    width: 6rem;
+    height: 6rem;
     object-fit: contain;
+    margin-left: 0.5em;
+    fill: var(--a-light)
   }
 
   nav {
-    display: flex;
-    justify-content: center;
-    --background: rgba(255, 255, 255, 0.7);
+    /* display: flex;
+    justify-content: center; */
+    color: var(--a-light);
+    background-color: var(--a-dark);
+    position: fixed;
+    left: 100vw;
+    top: 6rem;
+    width: 10rem;
+    transition: 0.3s;
   }
-
-  svg {
-    width: 2em;
-    height: 3em;
-    display: block;
-  }
-
-  path {
-    fill: var(--background);
+  nav.active {
+    left: calc(100vw - 10rem);
   }
 
   ul {
     position: relative;
     padding: 0;
     margin: 0;
-    height: 3em;
-    display: flex;
+    /* height: 3em; */
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     list-style: none;
-    background: var(--background);
-    background-size: contain;
+    /* background: var(--background);
+    background-size: contain; */
   }
 
   li {
     position: relative;
-    height: 100%;
+    padding: 1em 0 1em 0;
+    /* height: 100%; */
   }
 
-  li.active::before {
+  /* li.active::before {
     --size: 6px;
     content: '';
     width: 0;
@@ -102,14 +112,14 @@
     left: calc(50% - var(--size));
     border: var(--size) solid transparent;
     border-top: var(--size) solid var(--accent-color);
-  }
+  } */
 
   nav a {
     display: flex;
     height: 100%;
     align-items: center;
     padding: 0 1em;
-    color: var(--heading-color);
+    color: var(--a-light);
     font-weight: 700;
     font-size: 0.8rem;
     text-transform: uppercase;
@@ -121,4 +131,39 @@
   a:hover {
     color: var(--accent-color);
   }
+.ham {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.hamRotate.active {
+  transform: rotate(45deg);
+}
+.line {
+  fill:none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke:var(--a-light);
+  stroke-width:5.5;
+  stroke-linecap:round;
+}
+.ham4 .top {
+  stroke-dasharray: 40 121;
+}
+.ham4 .bottom {
+  stroke-dasharray: 40 121;
+}
+.ham4.active .top {
+  stroke-dashoffset: -68px;
+}
+.ham4.active .bottom {
+  stroke-dashoffset: -68px;
+}
+.ham4.active .line {
+  stroke: var(--accent-color);
+  transition: 0.3s;
+}
 </style>
