@@ -16,11 +16,10 @@ The key elements that you will be working with, produced in the order that you w
 
 Your Border Wallet is produced when you combine 1+2, plus a 24th 'checksum' word (instructions are included later) and, if you want to use one, a passphrase.
 
-[placeholder for image of 4 grids]
+![summary1](/summary1)
 
 You work with two grids - a blank Pattern grid and an unmarked Entropy Grid.
-
-[placeholder for an image of a marked Entropy grid and an unmarked Entropy Grid]
+![summary2](/summary2)
 
 The Border Wallet is complete once you have memorised your Pattern + checksum, and safely stored your Unmarked Entropy Grid
 
@@ -28,7 +27,7 @@ Once you have completed these steps, and memorised your pattern or cell co-ordin
 
 The whole point of the Border Wallet concept is to be able to memorise your Pattern and to carry this pattern in your head. Therefore the only remaining token of your exercise should be the unmarked Entropy Grid - which, when combined with the Pattern allows you to restore your wallet when necessary.
 
-[placeholder for image of stickman remembering pattern and burning marked grid]
+![summary3](/summary3)
 
 Your final Border Wallet will comprise (1) a securely stored/retained unmarked Entropy Grid, (2) your memorised pattern, (3) the checksum (and your optional passphrase if used). Any marked-up Entropy Grids should therefore be destroyed.
 
