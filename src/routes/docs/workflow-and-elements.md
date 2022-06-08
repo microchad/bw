@@ -19,6 +19,7 @@ Your Border Wallet is produced when you combine 1+2, plus a 24th 'checksum' word
 ![summary1](/summary1.svg)
 
 You work with two grids - a blank Pattern grid and an unmarked Entropy Grid.
+
 ![summary2](/summary2.svg)
 
 The Border Wallet is complete once you have memorised your Pattern + checksum, and safely stored your Unmarked Entropy Grid
