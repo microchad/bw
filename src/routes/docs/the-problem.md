@@ -22,4 +22,4 @@ An [estimated](https://ipropertymanagement.com/research/renting-statistics) 35% 
 
 The creation of Bitcoin, and Improvement Proposals such as BIP39, have transformed our ability to store and transport value over space and time. However, in the case of people who struggle to maintain their property rights in the physical domain, or who move around a lot, paper or even steel backups can present storage and transportation challenges.
 
-> So - instead of needing to carry full paper seed word backups in their pockets - what if people they could carry them more easily, and reliably, in their heads?
+> So - instead of needing to use paper seed word backups - what if people they could carry them more easily, and reliably, in their heads?
