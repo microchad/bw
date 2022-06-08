@@ -1,6 +1,6 @@
 ---
-previous: start
-next: words-vs-patterns
+previous: Start
+next: Words vs Patterns
 ---
 
 # The Problem

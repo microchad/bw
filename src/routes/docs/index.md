@@ -1,5 +1,5 @@
 ---
-next: the-problem
+next: The Problem
 ---
 
 # Documentation
@@ -20,7 +20,7 @@ Border Wallets are primarily aimed at people who:
 
 In practice, though, _it can be used by anybody_ who wants to more easily and more reliably commit their Bitcoin seed words to memory.
 
-> BorderWallets.com is currently in alpha release. Our Seed Grid Generator is available on our GH repo for Bitcoiners to start testing. We welcome feedback for improving it and ideas for making it more accessible to more people.
+> BorderWallets.com is currently in alpha release. Our Entropy Grid Generator is available on our GH repo for Bitcoiners to start testing. We welcome feedback for improving it and ideas for making it more accessible to more people.
 
 ![Image of tweet from @TheBitcoinConf captioned: When you can memorize your private key, your mind becomes a #Bitcoin wallet.](/mind_bitcoin_wallet_tweet.png)
 

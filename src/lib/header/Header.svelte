@@ -38,6 +38,43 @@
       <li class:active={$page.url.pathname === '/docs'}>
         <a sveltekit:prefetch href="/docs">Documentation</a>
       </li>
+      <li class="nav-section-heading"><span>ABOUT</span></li>
+      <li class:active={$page.url.pathname === '/docs/the-problem'}>
+        <a sveltekit:prefetch href="/docs/the-problem">The Problem</a>
+      </li>
+      <li class:active={$page.url.pathname === '/docs/words-vs-patterns'}>
+        <a sveltekit:prefetch href="/docs/words-vs-patterns">Words vs Patterns</a>
+      </li>
+      <li class:active={$page.url.pathname === '/docs/the-solution'}>
+        <a sveltekit:prefetch href="/docs/the-solution">The Solution</a>
+      </li>
+      <li class="nav-section-heading"><span>GETTING STARTED</span></li>
+      <li class:active={$page.url.pathname === '/docs/workflow-and-elements'}>
+        <a sveltekit:prefetch href="/docs/workflow-and-elements">Workflow and Elements</a>
+      </li>
+      <li class:active={$page.url.pathname === '/docs/download-the-entropy-grid-generator'}>
+        <a sveltekit:prefetch href="/docs/download-the-entropy-grid-generator"
+          >Download the Entropy Grid Generator</a
+        >
+      </li>
+      <li class:active={$page.url.pathname === '/docs/generating-entropy-grids'}>
+        <a sveltekit:prefetch href="/docs/generating-entropy-grids">Generating Entropy Grids</a>
+      </li>
+      <li class:active={$page.url.pathname === '/docs/creating-a-border-wallet'}>
+        <a sveltekit:prefetch href="/docs/creating-a-border-wallet">Creating a Border Wallet</a>
+      </li>
+      <li class:active={$page.url.pathname === '/docs/legacy-planning'}>
+        <a sveltekit:prefetch href="/docs/legacy-planning">Legacy Planning</a>
+      </li>
+      <li class:active={$page.url.pathname === '/docs/best-practices'}>
+        <a sveltekit:prefetch href="/docs/best-practices">Best Practices</a>
+      </li>
+      <li class:active={$page.url.pathname === '/docs/gotchas'}>
+        <a sveltekit:prefetch href="/docs/gotchas">Gotchas</a>
+      </li>
+      <li class:active={$page.url.pathname === '/docs/bip39-seed-words'}>
+        <a sveltekit:prefetch href="/docs/bip39-seed-words">BIP39 Seed Words</a>
+      </li>
     </ul>
   </nav>
 </header>
@@ -80,11 +117,12 @@
     position: fixed;
     left: 100vw;
     top: 6rem;
-    width: 10rem;
+    width: 30rem;
     transition: 0.3s;
+    overflow-y: scroll;
   }
   nav.active {
-    left: calc(100vw - 10rem);
+    left: calc(100vw - 30rem);
   }
 
   ul {
@@ -130,6 +168,14 @@
     letter-spacing: 0.1em;
     text-decoration: none;
     transition: color 0.2s linear;
+  }
+
+  .nav-section-heading {
+    padding: 1rem;
+    font-weight: 100;
+    font-size: small;
+    border-top: 1px solid var(--accent-color);
+    display: block;
   }
 
   a:hover {
