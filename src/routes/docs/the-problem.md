@@ -12,7 +12,7 @@ Since the introduction of BIP39 seed words, Bitcoiners have had the option to me
 Whilst this well-established approach is fine for those who are confident in their physical security situation, it is a challenge for people living in shared or higher-risk or more fluid accommodation or settings. For example, people with no fixed abode, who travel, who live in areas of conflict or war zones, e.g. Yemen, Syria, or those living in other settings where physical storage of physical seed words may be subject to security, loss, damage and confiscation risks.
 
 ![alt text](/tweet1.png)
-<caption>A recent example of how someone who lives in a shared property had their Bitcoin seed words taken</caption>
+<caption>An example of how someone who lives in a shared property had their Bitcoin seed words taken</caption>
 
 ## Some Numbers
 
