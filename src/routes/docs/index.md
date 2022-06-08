@@ -2,7 +2,7 @@
 next: the-problem
 ---
 
-# Bitcoin Border Wallets
+# Documentation
 
 **A new way to quickly memorise and easily recall Bitcoin seed words.**
 
