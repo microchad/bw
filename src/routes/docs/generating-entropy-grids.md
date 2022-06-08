@@ -62,12 +62,14 @@ Once you have settled on a sufficiently complex, well-placed and memorable shape
 ### The Word Grid
 
 ![grid-word](/grid-word.png)
+<caption>An example of the top 21 rows of a randomised Word Grid. Word Grids reproduce all 2048 seed words from the BIP39 list, randomised using the Fisher-Yates Shuffle algorithm</caption>
 
 The vast majority of users will choose to use Word Grids as opposed to the other kinds. Only the first 4 letters of each word are rendered as that is all that's required for seed phrase generation (some words have only 3 letters, e.g. fit, six, lab). By using these truncated words, with a smaller character set, gives us the ability to fit all 2048 words onto just two readable pages.
 
 ### The Number and Index Grids
 
 ![grid-number](/grid-number.png)
+<caption>An excerpt from the top 21 rows of a randomised Number Grid</caption>
 
 Number and Index Grids are virtually identical to each other when not randomised, with one key difference -the Number Grid uses an index of 0001 (attributable to the seed word 'Abandon') whereas the Index Grid uses an index of 0000 (also for 'Abandon').
 
@@ -76,6 +78,7 @@ Note that if you choose to generate both a Number and Index Grid together (not r
 ### The Hex Grid
 
 ![grid-hex](/grid-hex.png)
+<caption>An excerpt from the top 21 rows of a randomised Hex Grid. Make sense? If not, don't use this one! :)</caption>
 
 Hex Grids draw from the corresponding alphanumeric hexadecimal character set, with base 16. There are some but relatively few people who would want to use this - those that do will need no further expansion here on how they are used.
 
