@@ -3,9 +3,9 @@ previous: start
 next: words-vs-patterns
 ---
 
-## The Problem
+# The Problem
 
-# The 12/24 seed words that provide wallet back-up and recovery capability can be difficult to memorise and recall – especially over time, or in stressful situations.
+## The 12/24 seed words that provide wallet back-up and recovery capability can be difficult to memorise and recall – especially over time, or in stressful situations.
 
 Since the introduction of BIP39 seed words, Bitcoiners have had the option to memorise the necessary information to recover Bitcoin funds stored on-chain. Eventhough memorising 12 words is easier than 24, most people tend to prefer using 24 words and most wallet management solution providers typically recommend this too. Memorising - and reliably remembering - 24 unrelated words isn't that easy, though, which means that most people create and store physical backups of those words instead of committing them to memory.
 
