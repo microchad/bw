@@ -26,5 +26,8 @@ This phenomenon is known as the "Picture Superiority Effect".
 The Litmus Test
 
 Let's see if this works - in the spaces provided, have a go at recalling the missing words, or the missing colours/pattern from the test above. No cheating! And remember, you didn't know this was coming and there was no money on the line.
+
+![alt text](/test.svg)
+
 How did you do? 😄
 ​
