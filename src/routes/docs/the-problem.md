@@ -15,8 +15,7 @@ A recent example of how someone who lives in a shared property had their Bitcoin
 
 Some Numbers
 
-According to the UN Refugee Agency 
-, 84 million people had been forcibly displaced worldwide. A large number of these people would have had to flee their homes with little more than the clothes on their backs and what personal belongings they could carry. The transportation of any wealth along with personal belongings may have been an impossible challenge.
+According to the UN Refugee Agency [UNHCR](https://www.example.com](https://www.unhcr.org/refugee-statistics/), 84 million people had been forcibly displaced worldwide. A large number of these people would have had to flee their homes with little more than the clothes on their backs and what personal belongings they could carry. The transportation of any wealth along with personal belongings may have been an impossible challenge.
 
 According to 
 , nearly 5 million Americans identify as Digital Nomads and another 17 million aspire for this lifestyle. That's 1.5% - 6.5% of the US population who want to live a roving lifestyle.
