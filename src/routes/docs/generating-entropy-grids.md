@@ -47,7 +47,7 @@ This gives the option to work with hexadecimal alphanumeric characters (base16).
 
 Let's examine this in a little more detail before we move on.
 
-## Pattern Grids
+### Pattern Grids
 
 Blank **Pattern Grids** let you plan which cells you will use to generate your Border Wallet - and then map them out. You can experiment with different starting points, end points, shapes, co-ordinates, etc. before you commit the Pattern to your Entropy Grid. Remember, you have 2 sides you can choose from - you might choose to use one side, or both - splitting your pattern or having two or more across your 23-preferred cells (if generating a 24-word Border Wallet).
 
