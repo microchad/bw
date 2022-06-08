@@ -6,7 +6,7 @@ next: The Solution
 # Words vs Patterns
 
 Imagine having 5 seconds to memorise either (A) or (B) from the choices below.
-!(/wordsvspattern.svg)
+![alt text](/wordsvspattern.svg)
 
 Which one is easiest and most likely to be recalled in a stressful situation?
 
