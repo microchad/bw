@@ -23,7 +23,7 @@ Being able to recognise shapes more easily than words bears out anecdotally too 
 
 This phenomenon is known as the "Picture Superiority Effect".
 
-***The Litmus Test
+*** The Litmus Test
 
 Let's see if this works - in the spaces provided, have a go at recalling the missing words, or the missing colours/pattern from the test above. No cheating! And remember, you didn't know this was coming and there was no money on the line.
 
