@@ -9,7 +9,7 @@
   <div class="prev">
     {#if previous}
     <span>PREVIOUS</span>
-    <a href="/docs/{previous}">{previous.slice(0,1).toUpperCase() + previous.slice(1)}</a>
+    <a href="/docs/{previous === 'start' ? 'index' : previous}">{previous.slice(0,1).toUpperCase() + previous.slice(1)}</a>
     {/if}
   </div>
   <div class="next">
