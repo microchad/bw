@@ -7,8 +7,6 @@ next: Legacy Planning
 
 Time to start making shapes!
 
-## Creating your Border Wallet
-
 > Step 1: Generate your blank Pattern Grid.
 
 ![Select Pattern Grid (blank) on the Entropy Grid Generator Tool](/bw_docs_blank_grid_select.png)
