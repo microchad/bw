@@ -1,9 +1,8 @@
-```
 ---
-previous: Generating Entropy Grids
-next: Ecrypting your Entropy Grid
+previous: Download the Entropy Grid Generator
+next: Creating a Border Wallet
 ---
-```
+
 # Regenerating Entropy Grids
 
 ## Deterministic grid regeneration
