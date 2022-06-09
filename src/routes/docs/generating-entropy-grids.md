@@ -14,7 +14,6 @@ Now that the Entropy Grid Generator ZIP file is on your air-gapped machine, unzi
 You will see this open locally within your browser:
 
 ![image of the main screen of the Entropy Grid Generator](/bw-grab.png)
-
 <caption>The Border Wallets Entropy Grid Generator UI. This runs locally, offline in your browser.</caption>
 
 Most users will generate only two grids (the Pattern Grid + the Word Grid). The Entropy Grid Generator does, however allow users to generate three other types of **randomised** Entropy Grids.
