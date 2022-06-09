@@ -1,6 +1,6 @@
 ---
 previous: Generating Entropy Grids
-next: Legacy Planning
+next: Regenerating Entropy Grids
 ---
 
 # Creating a Border Wallet
