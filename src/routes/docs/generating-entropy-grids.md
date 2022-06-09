@@ -36,7 +36,11 @@ This gives the option to work with hexadecimal alphanumeric characters (base16).
 ![A screenshot showing the types of grids available](/bw_docs_blank_grid_select.png)
 <caption>You choose from a drop-down menu which grid type to generate</caption>
 
-Most users will generate only two grids (the Pattern Grid + the Word Grid).
+Most users will generate only two grids - the Pattern Grid + the Word-version of the Entropy Grid.
+
+When generating your Entropy Grid, you are given the choice of two types of entropy; Deterministic and Maximum.
+
+![entropy options](/entropy.png)
 
 
 ---
