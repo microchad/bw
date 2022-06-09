@@ -17,26 +17,21 @@ You will see this open locally within your browser:
 
 <caption>The Border Wallets Entropy Grid Generator UI. This runs locally, offline in your browser.</caption>
 
-Whilst most users will generate only two grids (the Pattern Grid + the Word Grid), the Entropy Grid Generator allows you to generate both the Pattern Grid (all users) and four other **randomised** Entropy Grids:
+Most users will generate only two grids (the Pattern Grid + the Word Grid). The Entropy Grid Generator does, however allow users to generate three other types of **randomised** Entropy Grids.
 
-### A Pattern Grid (recommended for all users)
-
+1. A Pattern Grid (recommended for all users)
 This provides you with a blank grid to create your own patterns or to mark your preferred cell co-ordinates. This is the first grid you should download and create, so as not to be influenced by the words outputted (word bias)
 
-### A Word Grid (recommended for 99% of users)
-
+2. A Word Grid (recommended for 99% of users)
 Word Grids employ only the first four letters of each seed word. This allows us to produce a randomised grid of all 2048 BIP-39 compatible words as a 2-page PDF. If you are not familiar with how BIP-39 works and why only the first four letters of a seed word are required for wallet generation and recovery, [read this](https://www.blockplate.com/pages/first-4-letters-of-a-bip39-mnemonic-seed-phrase). You can review a full list of seed words and their respective first four letters [here](https://mtc-2.gitbook.io/borderwallets.com/bip39-seed-words).
 
-### A Number Grid (some users may prefer to use this)
-
+3. A Number Grid (some users may prefer to use this)
 This gives the option to work with the numbers associated with BIP39 seed words where the index is 1 (0001-2048), e.g. Abandon = 0001, up to 2048.
 
-### An Index Grid (a very small number of users may prefer to use this)
-
+4. An Index Grid (a very small number of users may prefer to use this)
 This gives the option to work with the numbers associated with BIP39 seed words where the index is 0, e.g. Abandon = 0000, up to 2047.
 
-### A Hex Grid (a tiny number of technical users may choose to use this)
-
+5. A Hex Grid (a tiny number of technical users may choose to use this)
 This gives the option to work with hexadecimal alphanumeric characters (base16).
 
 ![A screenshot showing the types of grids available](/bw_docs_blank_grid_select.png)
