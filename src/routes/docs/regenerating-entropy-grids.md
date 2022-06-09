@@ -1,5 +1,5 @@
 ---
-previous: Generating Entropy Grids
+previous: Creating a Border Wallet
 next: Encryption
 ---
 
