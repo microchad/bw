@@ -16,7 +16,7 @@ You will see this open locally within your browser:
 ![image of the main screen of the Entropy Grid Generator](/bw-grab.png)
 <caption>The Border Wallets Entropy Grid Generator UI. This runs locally, offline in your browser.</caption>
 
-The Entropy Grid Generator allows users to generate five types of grids - one blank, and four other randomly populated Entropy grids created using two types of entropy - Deterministic and Maximum.
+The Entropy Grid Generator allows users to generate five types of grids - one blank, and four other randomly populated Entropy Grids.
 
 1. A Pattern Grid (recommended for all users).
 This provides you with a blank grid to create your own patterns or to mark your preferred cell co-ordinates. This is the first grid you should download and create, so as not to be influenced by the words outputted (word bias)
