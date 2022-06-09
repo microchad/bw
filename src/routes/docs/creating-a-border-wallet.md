@@ -98,4 +98,4 @@ However, you may deem it appropriate to keep a copy of your pattern, stored with
 
 ### Legacy planning
 
-Border Wallets can be used as a secure way of transferring funds to children and other relatives without exposing Seed Words to them before you pass away. The next page covers how.
+Border Wallets can be used as a secure way of transferring funds to children and other relatives without exposing Seed Words to them before you pass away. We cover this [here](borderwallets.com/docs/legacy-planning).
