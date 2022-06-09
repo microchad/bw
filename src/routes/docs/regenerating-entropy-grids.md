@@ -4,6 +4,8 @@
 
 The Entropy Grid Generator provides the option - when creating your Entropy Grid - to choose Deterministic entropy. By using 128-bits of entropy in the creation of these grids (the same level used when generating 12-word Bitcoin seed backups with 128 dice rolls) we have the ability to simultaneously generate 12 words Regeneration Phrases which allow users to write down a backup to their Entropy Grid in plain text. These Regeneration Phrases are automatically added to the bottom of Deterministic Entropy Grids during generation.
 
+NB: Maximum Entropy Grids use 19580-bits of entropy. It is not possible to offer regenerative recovery phrases with this level of randomness.
+
 ![reg1](/regeneration1.png)
 <caption>An example of a 12-word Grid Recovery Phrase. You don't have to use this Recovery Phrase, but the option is there if you want to.</caption>
 
