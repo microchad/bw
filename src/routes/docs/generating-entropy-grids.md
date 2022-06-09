@@ -36,7 +36,7 @@ This gives the option to work with hexadecimal alphanumeric characters (base16).
 ![A screenshot showing the types of grids available](/bw_docs_blank_grid_select.png)
 <caption>You choose from a drop-down menu which grid type to generate</caption>
 
-Most users will opt for Word Grids, which produces the first four letters of each BIP39 seed word in a randomised order using the Fisher-Yates Shuffle algorithm running locally in your browser. When you hit "GENERATE GRID", your chosen grid(s) - formatted in a 2-page PDF - will be sent to your downloads folder or a new tab in your browser.
+Most users will opt for Word Grids, which produces the first four letters of each BIP39 seed word in a randomised order using the Fisher-Yates Shuffle algorithm running locally in your browser. 
 
 ![entropy options](/entropy-small.png)
 
@@ -44,6 +44,8 @@ We offer users the ability to employ two types of entropy when generating their 
 
     - The 128-bit option provides users with *deterministic* entropy grid reproducibility - i.e. the ability to backup grids in plain text as 12 words and regenerate later them using the Entropy Grid Generator. Whilst this may seem counter-intuitive to the concept of Border Wallets, grid reproducability using words that can be written in plain text may serve an important role for some users, e.g. for backup, grid-distribution, or decoy purposes, etc. 
     - The 19580-bit option provides users with the *maximum* level of entropy. Because of the immense randomness of these grids (!2048), regeneration using backup words is not possible. These grids must therefore be saved and stored safely, physically or digitally, as there is no way to regenerate them later using backup words.
+
+When you hit "GENERATE GRID", your grid - formatted as a 2-page PDF - will be sent to your downloads folder or a new tab in your browser.
 
 ---
 
