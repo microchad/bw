@@ -39,6 +39,7 @@ This gives the option to work with hexadecimal alphanumeric characters (base16).
 Most users will opt for Word Grids, which produces the first four letters of each BIP39 seed word in a randomised order using the Fisher-Yates Shuffle algorithm running locally in your browser. 
 
 ![entropy options](/entropy-small.png)
+<caption>You have two types of entropy to choose from when generating your grids.</caption>
 
 We offer users the ability to employ two types of entropy when generating their Entropy Grids - 128-bit and 19580-bit:
 
@@ -58,7 +59,6 @@ Let's examine this in a little more detail before we move on.
 Blank **Pattern Grids** let you plan which cells you will use to generate your Border Wallet - and then map them out. You can experiment with different starting points, end points, shapes, co-ordinates, etc. before you commit the Pattern to your Entropy Grid. Remember, you have 2 sides you can choose from - you might choose to use one side, or both - splitting your pattern or having two or more across your 23-preferred cells (if generating a 24-word Border Wallet).
 
 ![image of 2 sheets of A4 paper printed with a blank grid on each](/bw_docs_two_blank_grids.png)
-
 <caption>The Blank Pattern Grid gives you 16 columns (marked A-P) x 128 rows, across 2 sides of A4, to choose from when devising your Border Wallet pattern or co-ordinates. That's 2048 cells to choose from</caption>
 
 Once you have settled on a sufficiently complex, well-placed and memorable shape or set of co-ordinates (which we call your Pattern), you will then need to transpose it onto one of the four Entropy Grids (choose from the Word, Number, Index or Hex Grid based on your comfort/familiarity with each) in order to start generating your Border Wallet.
