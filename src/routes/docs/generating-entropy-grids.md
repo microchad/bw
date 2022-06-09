@@ -43,7 +43,7 @@ We offer users the ability to employ two types of entropy when generating their 
     - The 128-bit option provides users with deterministic entropy grid reproducibility - i.e. the ability to backup grids in plain text as 12 words and regenerate later them using the Entropy Grid Generator.
     - The 19580-bit option provides users with the maximum level of entropy. Because of the randomness of these grids, regeneration is not possible. These grids must therefore be saved and stored safely as there is no way to regenerate them later from backup words.
 
-![entropy options](/entropy.png)
+![entropy options](/entropy-small.png)
 
 ---
 
