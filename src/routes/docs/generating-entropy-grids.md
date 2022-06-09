@@ -37,6 +37,8 @@ This gives the option to work with hexadecimal alphanumeric characters (base16).
 
 <caption>You choose from a drop-down menu which grid type to generate</caption>
 
+---
+
 ## Exploring the Grids
 
 Let's examine this in a little more detail before we move on.
