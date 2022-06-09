@@ -36,12 +36,14 @@ This gives the option to work with hexadecimal alphanumeric characters (base16).
 ![A screenshot showing the types of grids available](/bw_docs_blank_grid_select.png)
 <caption>You choose from a drop-down menu which grid type to generate</caption>
 
-Most users will generate only two grids - the Pattern Grid + the Word-version of the Entropy Grid.
+Most users will opt for Word Grids, which produces the first four letters of each BIP39 seed word in a randomised order using the Fisher-Yates Shuffle algorithm running locally in your browser. When you hit "GENERATE GRID", your chosen grid(s) - formatted in a 2-page PDF - will be sent to your downloads folder.
 
-When generating your Entropy Grid, you are given the choice of two types of entropy; Deterministic and Maximum.
+We offer users the ability to employ two types of entropy when generating their Entropy Grids - 128-bit (Deterministic) and 19580-bit (Maximum):
+
+    - The 128-bit option provides users with deterministic entropy grid reproducibility - i.e. the ability to backup grids in plain text as 12 words and regenerate later them using the Entropy Grid Generator.
+    - The 19580-bit option provides users with the maximum level of entropy. Because of the randomness of these grids, regeneration is not possible. These grids must therefore be saved and stored safely as there is no way to regenerate them later from backup words.
 
 ![entropy options](/entropy.png)
-
 
 ---
 
