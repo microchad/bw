@@ -13,7 +13,7 @@ Now that the Entropy Grid Generator ZIP file is on your air-gapped machine, unzi
 
 You will see this open locally within your browser:
 
-![image of the main screen of the Entropy Grid Generator](/bw_docs_egg_screenshot.png)
+![image of the main screen of the Entropy Grid Generator](/bw-grab.png)
 
 <caption>The Border Wallets Entropy Grid Generator UI. This runs locally, offline in your browser.</caption>
 
