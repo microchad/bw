@@ -5,11 +5,9 @@ next: Encryption
 
 # Regenerating Entropy Grids
 
-## Deterministic grid regeneration
+## Deterministic grid recreation
 
-The Entropy Grid Generator provides the option - when creating your Entropy Grid - to choose Deterministic entropy. By using 128-bits of entropy in the creation of these grids (the same level used when generating 12-word Bitcoin seed backups with 128 dice rolls) we have the ability to simultaneously generate 12 words Regeneration Phrases which allow users to write down a backup to their Entropy Grid in plain text. These Regeneration Phrases are automatically added to the bottom of Deterministic Entropy Grids during generation.
-
-NB: Maximum Entropy Grids use 19580-bits of entropy. It is not possible to offer regenerative recovery phrases with this level of randomness.
+The Entropy Grid Generator provides the option - when creating your Entropy Grid - to choose Deterministic entropy. By using 128-bits of entropy in the creation of these grids (the same level used when generating 12-word Bitcoin seed backups with 128 dice rolls) we have the ability to simultaneously generate 12-word Recovery Phrases that gives a plain text backup. Recovery Phrases are automatically added to the bottom of Deterministic Entropy Grids during generation.
 
 ![reg1](/regeneration1.png)
 <caption>An example of a 12-word Grid Recovery Phrase. You don't have to use this Recovery Phrase, but the option is there if you want to</caption>
@@ -19,6 +17,10 @@ The provision of Recovery Phrase may at first glance seem counter-intuitive to t
 However, some users may find value in having the option to make hand-written or digital copies of regeneration words in some circumstances - for example, if you decide to lodge a copy of an Entropy Grid with a 3rd party for safe-keeping, e.g. a sibling, parent, child, etc. then giving them a 12 word Recovery Phrase (which looks like a Bitcoin seed word backup, but is not one) instead of a full copy of your Entropy Grid adds an additional level of security. 12 words which look like a Bitcoin seed phrase but don't act like one is potentially a very useful decoy.
   
 Having 12 words as a representation for an Entropy Grid instead of a PDF file may also open up more options for users to store the keys to their grids.
+
+NB: Recovery is only available with Deterministric Entropy Grids. Maximum Entropy Grids use 19580-bits of entropy - with this supracosmic-level of randomness, it is not possible to offer regenerative recovery phrases. Maximum Entropy Grids therefore need to be stored securely once generated.
+
+## Regenerating a Deterministic Grid
 
 Let's test it.
 
