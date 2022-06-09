@@ -28,7 +28,7 @@ Let's walk through how we regenerate is using our EGG's Regenerate feature.
   
 > 1. Open borderwallets.html and navigate to the "Regenerate" tab.
   
-![reg-test](/regen-test-2.png)
+![reg-test](/regen-test-1.png)
 <caption>You are given a field to enter a Recovery Phrase.</caption>
 
 Here you will see a field presented for you to enter a Recovery Phrase. If you want to test it, go ahead and input the Recovery Phrase above.
