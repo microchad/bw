@@ -16,13 +16,13 @@ You will see this open locally within your browser:
 ![image of the main screen of the Entropy Grid Generator](/bw-grab.png)
 <caption>The Border Wallets Entropy Grid Generator UI. This runs locally, offline in your browser.</caption>
 
-The Entropy Grid Generator allows users to generate five types of Entropy Grids - one blank, and four other randomly populated grids.
+The Entropy Grid Generator allows users to generate five types of grids - one blank, and four other randomly populated Entropy grids created using two types of entropy - Deterministic and Maximum.
 
 1. A Pattern Grid (recommended for all users).
 This provides you with a blank grid to create your own patterns or to mark your preferred cell co-ordinates. This is the first grid you should download and create, so as not to be influenced by the words outputted (word bias)
 
 2. A Word Grid (recommended for 99% of users).
-Word Grids employ only the first four letters of each seed word. This allows us to produce a randomised grid of all 2048 BIP-39 compatible words as a 2-page PDF. If you are not familiar with how BIP-39 works and why only the first four letters of a seed word are required for wallet generation and recovery, [read this](https://www.blockplate.com/pages/first-4-letters-of-a-bip39-mnemonic-seed-phrase). You can review a full list of seed words and their respective first four letters [here](https://mtc-2.gitbook.io/borderwallets.com/bip39-seed-words).
+Word Grids employ only the first four letters of each seed word. This allows us to produce a randomised grid of all 2048 BIP-39 compatible words as a 2-page PDF. If you are not familiar with how BIP-39 works and why only the first four letters of a seed word are required for wallet generation and recovery, [read this](https://www.blockplate.com/pages/first-4-letters-of-a-bip39-mnemonic-seed-phrase). You can review a full list of seed words and their respective first four letters [here](https://docs.google.com/spreadsheets/d/1MlQJ8sAQgL_bleI7L0eolrpqsthn9Nxhb4tWXi_Pvhw/edit?usp=sharing).
 
 3. A Number Grid (some users may prefer to use this).
 This gives the option to work with the numbers associated with BIP39 seed words where the index is 1 (0001-2048), e.g. Abandon = 0001, up to 2048.
