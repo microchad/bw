@@ -63,6 +63,12 @@
       <li class:active={$page.url.pathname === '/docs/creating-a-border-wallet'}>
         <a sveltekit:prefetch href="/docs/creating-a-border-wallet">Creating a Border Wallet</a>
       </li>
+      <li class:active={$page.url.pathname === '/docs/regenerating-entropy-grids'}>
+        <a sveltekit:prefetch href="/docs/creating-a-border-wallet">Regenerating Entropy Grids</a>
+      </li>
+      <li class:active={$page.url.pathname === '/docs/encryption'}>
+        <a sveltekit:prefetch href="/docs/creating-a-border-wallet">Encryption</a>
+      </li>
       <li class:active={$page.url.pathname === '/docs/legacy-planning'}>
         <a sveltekit:prefetch href="/docs/legacy-planning">Legacy Planning</a>
       </li>
