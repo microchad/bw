@@ -88,6 +88,6 @@ Note that if you choose to generate both a Number and Index Grid together (not r
 
 Hex Grids draw from the corresponding alphanumeric hexadecimal character set, with base 16. There are some but relatively few people who would want to use this - those that do will need no further expansion here on how they are used.
 
-> The four types of Entropy Grids that the Entropy Grid Generator produces do NOT co-respond to each other. They will ALL be different to one another, and to each successive one that is generated. They should therefore be treated as unique Entropy Grids. We recommend choosing to standardise on one type of Entropy Grid and sticking with it.
+> The four types of Entropy Grids that the Entropy Grid Generator produces do NOT co-respond to each other. They will ALL be different to one another, and to each successive one that is generated. They should therefore be treated as unique Entropy Grids. We recommend choosing to standardise on one type of Entropy Grid (e.g. Word Grid) and sticking with it.
 
 OK. That's the grids covered; let's move to the next section to start creating your Border Wallet.
