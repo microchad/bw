@@ -50,7 +50,7 @@ Did we mention that the order which we reference each word is crucial? Well, it'
 
 We recommend two options for calculating the checksum from your 11 or 23 seed words - the Seed Tool by Bitcoiner.Guide and the SeedSigner.
 
-### Seed Tool by Bitcoiner.Guide
+#### Seed Tool by Bitcoiner.Guide
 
 Bitcoin QnA and SuperPhatArrow's [Seed Tool](https://bitcoiner.guide/seed) provides an excellent option for calculating the checksum word. Download the latest version via their [GitHub repo](https://github.com/BitcoinQnA/seedtool). Like our Entropy Grid Generator, it works offline in an air-gapped browser.
 
@@ -68,7 +68,7 @@ Enter each of the four (or three) letter seed words in the correct order into th
 
 To introduce more entropy (randomness) can choose to "Flip the bits" and have it calculate a new checksum - there are 8 possible words that will be shown from a 24 word seed so the checksum could be different if you perform this exercise again, generating a new wallet. This is why you should record/memorise the checksum generated and also make a note of how you generated it in the space provided in the header of your Entropy Grid.
 
-### SeedSigner
+#### SeedSigner
 
 SeedSigner is a great Bitcoin computer (aka 'Hardware Wallet' or 'HWW' or 'Signing Device'). Run as an open-source project with DIY assembly using off-the-shelf components, it provides a cheap, secure, fully air-gapped environment to work in with seed words.
 
@@ -92,12 +92,12 @@ You can also use the [Seed Tool](https://github.com/BitcoinQnA/seedtool) **offli
 
 We recommend performing a full recovery of your Border Wallet on a device of your choosing, **after** you initially set-up your wallet and transfer a small amount of funds to it but **before** transferring large amounts of funds to it. If you have not checked your backups, you do not have any backups!
 
-### Storing your Entropy Grid
+## Storing your Entropy Grid
 
 Your unmarked Entropy Grid - which essentially serves as a map to buried treasure that only you know the combination lock for - may be kept physically or digitally, depending on your set-up and what you deem most appropriate. The Pattern to unlock the treasury, which you created, will be kept in your head.
 
 However, you may deem it appropriate to keep a copy of your pattern, stored with the same degree of care that you would give a full seed work backup, to serve as either an aide-memoire or to allow someone like your next-of-kin to recover your funds should something happen to you. The choice is yours.
 
-## Legacy planning
+### Legacy planning
 
-Border Wallets can be used as a secure means of transferring funds to children and other relatives without exposing Seed Words to them before you pass away. The next page covers how.
+Border Wallets can be used as a secure way of transferring funds to children and other relatives without exposing Seed Words to them before you pass away. The next page covers how.
