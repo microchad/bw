@@ -1,6 +1,9 @@
+```
+---
 previous: Generating Entropy Grids
 next: Ecrypting your Entropy Grid
-
+---
+```
 # Regenerating Entropy Grids
 
 ## Deterministic grid regeneration
