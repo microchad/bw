@@ -1,5 +1,5 @@
 ---
-previous: Creating a Border Wallet
+previous: Encryption
 next: Best Practices
 ---
 
