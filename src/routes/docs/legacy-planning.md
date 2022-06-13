@@ -5,7 +5,7 @@ next: Best Practices
 
 # Legacy Planning
 
-XOR-style seed contruction
+## XOR-style seed contruction
 
 Coinkite introduced the concept of SeedXOR which provides a novel way for a 24-word seed phrase to be split into 2 x 24-word seed phrases which each act as their own wallets, but when combined form an entirely new wallet.
 
@@ -13,11 +13,11 @@ Coinkite introduced the concept of SeedXOR which provides a novel way for a 24-w
 
 <caption>Learn more about Coinkite's SeedXOR [seedXOR.com](https://seedxor.com/)</caption> ​
 
-We liked the idea, and think it can be applied to Border Wallets for legacy planning and handover.
+We liked the idea, and it can be applied to Border Wallets for legacy planning and handover.
 
-With the Border Wallet approach to Pattern construction, instead of taking a top-down/splitting approach like XOR does, we can adopt a bottom-up/building approach.
+With the Border Wallet approach to Pattern construction, instead of taking a top-down, splitting approach like XOR does, we can adopt a bottom-up, combinatory approach.
 
-Here's how:
+### Here's how
 
 > Step 1: Child A draws (or is given) an 11-word Pattern of their own. You map it onto a master Entropy Grid, and record each word to calculate the checksum. You add a passphrase, creating a wallet, and deposit funds solely for Child A. This is Wallet A.
 
