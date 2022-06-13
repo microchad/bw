@@ -6,12 +6,12 @@ next: Best Practices
 
 # Encryption
 
-NB: encryption is in alpha testing currently.
+<blockquote>Note: encryption is in alpha testing currently.</blockquote>
 
 The Entropy Grid Generator provides users with the ability to encrypt, and then decrypt, their entropy grids inside the tool.
 
-As with the Deterministic Grids, this feature is designed for particular groups of users who will find value in it. For example, users who plan
-to store their entropy grids in digital format and desire an additional level of security protection.
+As with the Deterministic Grids feature, encryption is designed for particular groups of users who may find it valuable. For example, those who plan
+to store their entropy grids in digital format and who want an additional level of security protection beyond their own measures to secure their digital files.
 
 ## Encrypting files
 
