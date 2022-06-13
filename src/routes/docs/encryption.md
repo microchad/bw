@@ -20,4 +20,6 @@ To encrypt your Entropy Grid, you need to create and remember a security passphr
 ![encryption](/encryption.png)
 <caption>Once you have created a secure passphrase, you will be able to drop your Border Wallet into the encryption box</caption>
 
-To decrypt your Entropy Grid, you perform exactly the same step, except that instead of loading your Entropy Grid into the box, you load the encrypted version of your Entropy Grid. After a short time, your Entropy Grid will be decrytped and available in your downloads folder or in a separate tab in your browser (depending on your browser settings).
+To decrypt your Entropy Grid, you perform exactly the same step, except that instead of loading your Entropy Grid into the box (once you have entered your chosen passphrase), you load the encrypted version of your Entropy Grid into it. After a short amount of processing time, your Entropy Grid will be decrytped and available in your downloads folder or in a separate tab in your browser (depending on your browser settings).
+
+<blockquote> You MUST test that you are able to decrypt your Entropy Grid using the same passphrase before relying on this alpha-stage feature.</blockquote>
