@@ -1,3 +1,9 @@
+---
+previous: Regenerating Entropy Grids
+next: Best Practices
+---
+
+
 # Encryption
 
 NB: encryption is in alpha testing currently.
