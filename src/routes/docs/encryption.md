@@ -1,6 +1,6 @@
 ---
 previous: Regenerating Entropy Grids
-next: Best Practices
+next: Legacy Planning
 ---
 
 
