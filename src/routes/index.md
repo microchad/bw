@@ -14,7 +14,7 @@ For more information on how we do this, to access our Entropy Grid Generator (EG
 
 If you are already familiar with our Docs section, you can download the EGG here:
 
-[download EGG](/download)
+![Download EGG](/button)
 
 <centre><svg viewBox='0 0 100 50' width='320' height='150' fill='none'>
   <circle cx='20'cy='35' r='8.5' fill='#00cffc' class='mainCircle'></circle>
