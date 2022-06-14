@@ -16,7 +16,7 @@ If you are already familiar with our Docs section, you can download the EGG here
 
 [download EGG](/download)
 
-<svg viewBox='0 0 100 50' width='620' height='310' fill='none'>
+<svg viewBox='0 0 100 50' width='220' height='110' fill='none'>
   <circle cx='20'cy='35' r='8.5' fill='#00cffc' class='mainCircle'></circle>
   <circle cx='20' cy='35' r='8.05' stroke='#00cffc' stroke-width='.9' fill='url(#gradient)' class='mainCircleFill'></circle>
   <rect x='17.5' y='32.5' width='5' height='5' stroke='none' fill='#00cffc' class='rect'></rect>
