@@ -22,7 +22,7 @@ The project is aimed at people who:
 - have no permanent fixed abode.
 
 
-In practice, though, _it can be used by anybody_ who wants to more easily and more reliably commit their Bitcoin seed words to memory. Going forward, as other decentralised, permissionless protocols emerge, e.g. Nostr, DIDs, etc., we envisage expand the project to include other types of seed words.
+In practice, though, _it can be used by anybody_ who wants to more easily and more reliably commit their Bitcoin seed words to memory.
 
 > BorderWallets.com is currently in alpha release. Our Entropy Grid Generator is available on our GH repo for Bitcoiners to start testing. We welcome feedback for improving it and ideas for making it more accessible to more people.
 
