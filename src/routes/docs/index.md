@@ -12,9 +12,8 @@ Border Wallets can also be used as a simple but effective method for handling Bi
 
 The project is aimed at people who:
 
-- have concerns about their Bitcoin seed words being discovered in plain text backups (evil maid attack)
-- want to memorise their seed words but who struggle to do so
-- have difficulty securely caching physical seed backups
+- have difficulty/concerns with securely caching physical seed backups (evil maid attack)
+- want to memorise their seed words but struggle to do so
 - want to carry their seed words with them at all times
 - have limited access to trusted 3rd parties
 - live in areas of conflict, warzones, etc.
