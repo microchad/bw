@@ -6,25 +6,29 @@ next: The Problem
 
 **Introducing a new way to quickly memorise and easily recall Bitcoin seed words.**
 
-Bitcoin Border Wallets primarily solves one problem faced by many Bitcoiners; how to quickly, easily, securely and reliably memorise 12 or 24 (or more) seed words. The idea draws on a concept known as the Picture Superiority Effect, and employs the use of user-generated patterns applied to a randomised map of BIP-39 compliant words - offline, in a secure, air-gapped setting using a Fisher-Yates Shuffle algorithm.
+Bitcoin Border Wallets solve a problem faced by many Bitcoiners; how to quickly, easily, securely and reliably memorise 12 or 24 (or more) seed words. The idea draws on a concept known as the Picture Superiority Effect, and employs the use of user-generated patterns applied to a randomised map of BIP-39 compliant words - offline, in a secure, air-gapped setting using a Fisher-Yates Shuffle algorithm.
 
-Secondarily, Border Wallets can also be used as a simple but effective method for handling Bitcoin legacy ownership transfers.
+Border Wallets can also be used as a simple but effective method for handling Bitcoin legacy ownership transfers.
 
-Border Wallets are primarily aimed at people who:
+The project is aimed at people who:
 
-- may have difficulty securely caching physical seed backups
+- have concerns about their Bitcoin seed words being discovered in plain text backups (evil maid attack)
+- want to memorise their seed words but who struggle to do so
+- have difficulty securely caching physical seed backups
 - want to carry their seed words with them at all times
 - have limited access to trusted 3rd parties
 - live in areas of conflict, warzones, etc.
-- regularly travel.
+- regularly travel or move around
+- have no permanent fixed abode.
 
-In practice, though, _it can be used by anybody_ who wants to more easily and more reliably commit their Bitcoin seed words to memory.
+
+In practice, though, _it can be used by anybody_ who wants to more easily and more reliably commit their Bitcoin seed words to memory. Going forward, as other decentralised, permissionless protocols emerge, e.g. Nostr, DIDs, etc., we envisage expand the project to include other types of seed words.
 
 > BorderWallets.com is currently in alpha release. Our Entropy Grid Generator is available on our GH repo for Bitcoiners to start testing. We welcome feedback for improving it and ideas for making it more accessible to more people.
 
 ![Image of tweet from @TheBitcoinConf captioned: When you can memorize your private key, your mind becomes a #Bitcoin wallet.](/mind_bitcoin_wallet_tweet.png)
 
-The best kind of Bitcoin wallet is one that's easy for the user to access and hard to lose, but hard for an attacker to access and easy to miss.
+The best kind of Bitcoin wallet is one that's easy for the user to access and hard to lose, but easy for an attacker to miss and hard to access.
 
 ## Overview
 
@@ -41,7 +45,12 @@ Let's take a look at the problems we are trying to solve, the solution we have c
 ## Getting started
 
 1. [Summary: Workflow and Elements](/docs/workflow-and-elements)
-1. [Generating Entropy Grids](/docs/generating-entropy-grids)
-1. [Creating a Border Wallet](/docs/creating-a--border-wallet)
-1. [Best Practices](/docs/best-practices)
-1. [Gotchas](/docs/gotchas)
+2. [Download the Entropy Grid Generator](/docs/download-the-entropy-grid-generator)
+3. [Generating Entropy Grids](/docs/generating-entropy-grids)
+4. [Creating a Border Wallet](/docs/creating-a--border-wallet)
+5. [Regenerating Entropy Grids](/docs/regenerating-entropy-grids)
+6. [Encryption](/docs/encryption)
+7. [Legacy Planning](/docs/legacy-planning)
+8. [Best Practices](/docs/best-practices)
+9. [Gotchas](/docs/gotchas)
+10. [BIP39 Seed Words](/docs/bip39-seed-words)
