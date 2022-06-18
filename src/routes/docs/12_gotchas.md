@@ -1,6 +1,7 @@
 ---
 previous: Best Practices
 next: BIP39 Seed Words
+pageNo: 12
 ---
 
 # Gotchas

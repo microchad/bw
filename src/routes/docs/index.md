@@ -1,5 +1,6 @@
 ---
 next: The Problem
+pageNo: 0
 ---
 
 # Documentation
@@ -36,19 +37,19 @@ There will soon be a video here providing a walk-through of the problem we are t
 
 Let's take a look at the problems we are trying to solve, the solution we have created, and some of The Science™️ behind why patterns beat words when it comes to memorisation and recall.
 
-1. [The Problem](/docs/the-problem)
-1. [Words vs Patterns](/docs/words-vs-patterns)
-1. [The Solution](/docs/the-solution)
+1. [The Problem](/docs/01_the-problem)
+1. [Words vs Patterns](/docs/02_words-vs-patterns)
+1. [The Solution](/docs/03_the-solution)
 
 ## Getting started
 
-1. [Summary: Workflow and Elements](/docs/workflow-and-elements)
-2. [Download the Entropy Grid Generator](/docs/download-the-entropy-grid-generator)
-3. [Generating Entropy Grids](/docs/generating-entropy-grids)
-4. [Creating a Border Wallet](/docs/creating-a--border-wallet)
-5. [Regenerating Entropy Grids](/docs/regenerating-entropy-grids)
-6. [Encryption](/docs/encryption)
-7. [Legacy Planning](/docs/legacy-planning)
-8. [Best Practices](/docs/best-practices)
-9. [Gotchas](/docs/gotchas)
-10. [BIP39 Seed Words](/docs/bip39-seed-words)
+1. [Summary: Workflow and Elements](/docs/04_workflow-and-elements)
+2. [Download the Entropy Grid Generator](/docs/05_download-the-entropy-grid-generator)
+3. [Generating Entropy Grids](/docs/06_generating-entropy-grids)
+4. [Creating a Border Wallet](/docs/07_creating-a--border-wallet)
+5. [Regenerating Entropy Grids](/docs/08_regenerating-entropy-grids)
+6. [Encryption](/docs/09_encryption)
+7. [Legacy Planning](/docs/10_legacy-planning)
+8. [Best Practices](/docs/11_best-practices)
+9. [Gotchas](/docs/12_gotchas)
+10. [BIP39 Seed Words](/docs/13_bip39-seed-words)

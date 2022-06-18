@@ -1,6 +1,7 @@
 ---
 previous: Encryption
 next: Best Practices
+pageNo: 10
 ---
 
 # Legacy Planning

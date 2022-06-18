@@ -1,6 +1,7 @@
 ---
 previous: Creating a Border Wallet
 next: Encryption
+pageNo: 8
 ---
 
 # Regenerating Entropy Grids
