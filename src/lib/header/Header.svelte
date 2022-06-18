@@ -1,6 +1,8 @@
 <script>
   import { page } from '$app/stores';
   import logo from './bw.svg';
+  import { slide } from 'svelte/transition';
+  import { quintOut } from 'svelte/easing';
   let navOpen = false;
   function toggleNav() {
     navOpen = !navOpen;
@@ -32,57 +34,71 @@
       />
     </svg>
   </div>
-  <nav class={navOpen ? 'active' : ''}>
-    <ul>
-      <li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-      <li class:active={$page.url.pathname === '/docs'}>
-        <a sveltekit:prefetch href="/docs">Documentation</a>
-      </li>
-      <li class="nav-section-heading"><span>ABOUT</span></li>
-      <li class:active={$page.url.pathname === '/docs/the-problem'}>
-        <a sveltekit:prefetch href="/docs/the-problem">The Problem</a>
-      </li>
-      <li class:active={$page.url.pathname === '/docs/words-vs-patterns'}>
-        <a sveltekit:prefetch href="/docs/words-vs-patterns">Words vs Patterns</a>
-      </li>
-      <li class:active={$page.url.pathname === '/docs/the-solution'}>
-        <a sveltekit:prefetch href="/docs/the-solution">The Solution</a>
-      </li>
-      <li class="nav-section-heading"><span>GETTING STARTED</span></li>
-      <li class:active={$page.url.pathname === '/docs/workflow-and-elements'}>
-        <a sveltekit:prefetch href="/docs/workflow-and-elements">Workflow and Elements</a>
-      </li>
-      <li class:active={$page.url.pathname === '/docs/download-the-entropy-grid-generator'}>
-        <a sveltekit:prefetch href="/docs/download-the-entropy-grid-generator"
-          >Download the Entropy Grid Generator</a
-        >
-      </li>
-      <li class:active={$page.url.pathname === '/docs/generating-entropy-grids'}>
-        <a sveltekit:prefetch href="/docs/generating-entropy-grids">Generating Entropy Grids</a>
-      </li>
-      <li class:active={$page.url.pathname === '/docs/creating-a-border-wallet'}>
-        <a sveltekit:prefetch href="/docs/creating-a-border-wallet">Creating a Border Wallet</a>
-      </li>
-      <li class:active={$page.url.pathname === '/docs/regenerating-entropy-grids'}>
-        <a sveltekit:prefetch href="/docs/regenerating-entropy-grids">Regenerating Entropy Grids</a>
-      </li>
-      <li class:active={$page.url.pathname === '/docs/encryption'}>
-        <a sveltekit:prefetch href="/docs/encryption">Encryption</a>
-      </li>
-      <li class:active={$page.url.pathname === '/docs/legacy-planning'}>
-        <a sveltekit:prefetch href="/docs/legacy-planning">Legacy Planning</a>
-      </li>
-      <li class:active={$page.url.pathname === '/docs/best-practices'}>
-        <a sveltekit:prefetch href="/docs/best-practices">Best Practices</a>
-      </li>
-      <li class:active={$page.url.pathname === '/docs/gotchas'}>
-        <a sveltekit:prefetch href="/docs/gotchas">Gotchas</a>
-      </li>
-      <li class:active={$page.url.pathname === '/docs/bip39-seed-words'}>
-        <a sveltekit:prefetch href="/docs/bip39-seed-words">BIP39 Seed Words</a>
-      </li>
-    </ul>
-  </nav>
+  {#if navOpen}
+    <nav
+      class={navOpen ? 'active' : ''}
+      transition:slide={{ delay: 250, duration: 300, easing: quintOut }}
+    >
+      <ul>
+        <li class:active={$page.url.pathname === '/'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/">Home</a>
+        </li>
+        <li class:active={$page.url.pathname === '/docs'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs">Documentation</a>
+        </li>
+        <li class="nav-section-heading"><span>ABOUT</span></li>
+        <li class:active={$page.url.pathname === '/docs/the-problem'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/the-problem">The Problem</a>
+        </li>
+        <li class:active={$page.url.pathname === '/docs/words-vs-patterns'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/words-vs-patterns"
+            >Words vs Patterns</a
+          >
+        </li>
+        <li class:active={$page.url.pathname === '/docs/the-solution'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/the-solution">The Solution</a>
+        </li>
+        <li class="nav-section-heading"><span>GETTING STARTED</span></li>
+        <li class:active={$page.url.pathname === '/docs/workflow-and-elements'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/workflow-and-elements"
+            >Workflow and Elements</a
+          >
+        </li>
+        <li class:active={$page.url.pathname === '/docs/download-the-entropy-grid-generator'}>
+          <a
+            on:click={toggleNav}
+            sveltekit:prefetch
+            href="/docs/download-the-entropy-grid-generator">Download the Entropy Grid Generator</a
+          >
+        </li>
+        <li class:active={$page.url.pathname === '/docs/generating-entropy-grids'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/generating-entropy-grids"
+            >Generating Entropy Grids</a
+          >
+        </li>
+        <li class:active={$page.url.pathname === '/docs/creating-a-border-wallet'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/creating-a-border-wallet"
+            >Creating a Border Wallet</a
+          >
+        </li>
+        <li class:active={$page.url.pathname === '/docs/legacy-planning'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/legacy-planning">Legacy Planning</a
+          >
+        </li>
+        <li class:active={$page.url.pathname === '/docs/best-practices'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/best-practices">Best Practices</a>
+        </li>
+        <li class:active={$page.url.pathname === '/docs/gotchas'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/gotchas">Gotchas</a>
+        </li>
+        <li class:active={$page.url.pathname === '/docs/bip39-seed-words'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/bip39-seed-words"
+            >BIP39 Seed Words</a
+          >
+        </li>
+      </ul>
+    </nav>
+  {/if}
 </header>
 
 <style>
@@ -120,15 +136,19 @@
     justify-content: center; */
     color: var(--a-light);
     background-color: var(--a-dark);
-    position: fixed;
-    left: 100vw;
+    right: -200vw;
     top: 6rem;
     width: 30rem;
+    max-width: 100vw;
     transition: 0.3s;
     overflow-y: scroll;
+    display: none;
+    position: absolute;
   }
   nav.active {
-    left: calc(100vw - 30rem);
+    /* left: calc(100vw - 30rem); */
+    right: 0;
+    display: block;
   }
 
   ul {

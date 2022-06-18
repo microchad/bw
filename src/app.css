@@ -27,6 +27,10 @@ body {
   background: var(--a-light);
   color: var(--a-dark);
   font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 img {
