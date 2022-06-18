@@ -16,6 +16,7 @@ Which one is easiest and most likely to be recalled in a stressful situation?
 Some formally conducted [studies](https://en.wikipedia.org/wiki/Picture_superiority_effect) have shown that we are far more capable of recalling patterns vs words after prolonged amounts of time.
 
 ![alt text](/circles.svg)
+
 <caption>After being shown a random collection of words and shapes, participants had much higher levels of recall for shapes than words</caption>
 
 Being able to recognise shapes more easily than words bears out anecdotally too - we tend to remember faces more easily than names (commonsensical, given that our eye sight and facial recognition abilities predated our use of language).
