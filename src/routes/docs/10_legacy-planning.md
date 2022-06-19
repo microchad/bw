@@ -16,7 +16,7 @@ Here are a couple of examples of ways that you can leave wealth to your descenda
 
 Coinkite introduced the concept of SeedXOR which provides a novel way for a 24-word seed phrase to be split into 2 x 24-word seed phrases which each act as their own wallets, but when combined form an entirely new wallet.
 
-![image of seedXOR with cold card](/bw_docs_seedxor.png)
+![seedXOR with cold card](/bw_docs_seedxor.png)
 
 <caption>Learn more about Coinkite's <a href="https://seedxor.com/">seedXOR.com</a></caption> ​
 

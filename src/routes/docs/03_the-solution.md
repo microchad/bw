@@ -28,6 +28,6 @@ The possibilities are endless.
 
 The Entropy Grid Generator uses the [Fisher-Yates Shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) algorithm the the browser's [cryptographically strong pseudo-random number generator seeded with truly random values](https://w3c.github.io/webcrypto/#crypto-interface) for generating a random permutation of all BIP-39 seed words. There is also an option to reproduce Entropy Grids using 12 words as entropy to seed [Gibson Research Corporation's Ultra-High Entropy Pseudo-Random Number Generator](https://www.grc.com/otg/uheprng.htm). When populating the list, only the first four letters of each word are produced in order to save space and time.
 
-![Image explaining the algorithm](/Durstenfeld_shuffle.svg)
+![The letters of the word 'Elvis' are shuffled until it is rearranged to spell 'lives'](/Durstenfeld_shuffle.svg)
 
 <caption>Example of shuffling five letters using Durstenfeld's in-place version of the Fisher–Yates shuffle</caption>

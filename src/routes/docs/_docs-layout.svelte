@@ -40,11 +40,19 @@
   .next > span {
     display: block;
     font-size: 0.75rem;
+    font-weight: 600;
+  }
+  .prev > a,
+  .next > a {
+    font-weight: 900;
+    font-size: 1.3rem;
   }
   .controls {
     max-width: 73em;
-    border-top: 1px solid var(--a-dark);
-    padding: 1rem 0 0;
+    /* border: 1px solid var(--primary-color); */
+    border-radius: 0.5rem;
+    background-color: var(--header-bg-color);
+    padding: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 6rem 0 0;

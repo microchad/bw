@@ -54,6 +54,6 @@ These tips are aimed at users whose physical/accommodation security is weak, who
 
 By considering these key elements, you can implement your own difficulty adjustment for a attacker.
 
-![placeholder of image of 5 graphs](/bw_docs_five_graphs.png)
+![four simple line graphs](/bw_docs_five_graphs.png)
 
 <caption>Variables which impact the risks of your Memory Map being exposed to an attacker</caption>

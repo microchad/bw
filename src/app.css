@@ -1,21 +1,26 @@
-@import '@fontsource/fira-mono';
-
 :root {
   font-family: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
     Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  --font-mono: 'Fira Mono', monospace;
-  --pure-white: #ffffff;
-  --primary-color: #b9c6d2;
-  --secondary-color: #d0dde9;
-  --tertiary-color: #edf0f8;
-  --accent-color: #b54400;
-  --heading-color: rgba(0, 0, 0, 0.7);
-  --text-color: #444444;
-  --background-without-opacity: rgba(255, 255, 255, 0.7);
-  --column-width: 42rem;
-  --column-margin-top: 4rem;
-  --a-dark: #222;
-  --a-light: #eee;
+  /* --accent-color: #b54400; */
+  --accent-color: #f7931a;
+  --primary-color: #383e42;
+  --secondary-color: #222;
+  --alt-bg-color: #c5c7c4;
+  --bg-color: #eee;
+  --header-bg-color: #383e42;
+  --header-color: #c5c7c4;
+  --black: #222;
+  --white: #eee;
+  --anthracite-grey: #383e42;
+  --bitcoin: #f7931a;
+  --light-grey: #c5c7c4;
+}
+
+[data-theme='dark'] {
+  --alt-bg-color: #383e42;
+  --primary-color: #eee;
+  --secondary-color: #c5c7c4;
+  --bg-color: #222;
 }
 
 * {
@@ -24,8 +29,8 @@
 
 body {
   margin: 0;
-  background: var(--a-light);
-  color: var(--a-dark);
+  background: var(--bg-color);
+  color: var(--primary-color);
   font-family: sans-serif;
   width: 100vw;
   height: 100vh;
@@ -40,15 +45,26 @@ img {
   margin-right: auto;
 }
 
+p > code {
+  background-color: var(--alt-bg-color);
+  padding: 0.1rem;
+  border-radius: 0.3rem;
+}
+
 blockquote {
   border-left: 0.3rem solid var(--accent-color);
   border-radius: 0.3rem;
   padding: 1rem;
-  background-color: var(--background-without-opacity);
+  background-color: var(--alt-bg-color);
 }
 
 a {
   color: var(--accent-color);
+  font-weight: 600;
+}
+
+a:visited {
+  text-decoration: none;
 }
 
 caption {
@@ -69,8 +85,8 @@ pre {
   word-wrap: break-word;
   border-radius: 10px;
   padding: 15px;
-  background-color: var(--a-dark);
-  color: var(--a-light);
+  background-color: var(--alt-bg-color);
+  color: var(--secondary-color);
   white-space: pre-wrap;
   padding-left: calc(15px + 2em);
   text-indent: calc(15px - 2em);
