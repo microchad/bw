@@ -6,13 +6,9 @@ pageNo: 6
 
 # Generating Entropy Grids
 
-After downloading the Entropy Grid Generator, please read these advisory notes carefully, and also the pages that follow about creating Border Wallets.
+After downloading the Entropy Grid Generator, **please read these advisory notes carefully**, and also the pages that follow about creating Border Wallets.
 
-Now that the Entropy Grid Generator ZIP file is on your air-gapped machine, unzip it and launch the 'borderwallets.html' file.
-
-![image of a filesystem list of files with borderwallets.html highlighted](/bw_docs_html_file_highlighted.png)
-
-You will see this open locally within your browser:
+Now that the Entropy Grid Generator HTML file is on your air-gapped machine, you can launch it and you will see this open locally within your browser:
 
 ![image of the main screen of the Entropy Grid Generator](/bw-grab.png)
 
@@ -39,7 +35,7 @@ The Entropy Grid Generator allows users to generate five types of grids - one bl
 
 <caption>You choose from a drop-down menu which grid type to generate</caption>
 
-Most users will opt for Word Grids, which produces the first four letters of each BIP39 seed word in a randomised order using the Fisher-Yates Shuffle algorithm running locally in your browser.
+Most users will opt for Word Grids, which produces the first four letters of each BIP39 seed word in a randomised order using the Fisher-Yates Shuffle algorithm with strong randomness running locally in your browser.
 
 ![entropy options](/entropy-small.png)
 
@@ -48,7 +44,7 @@ Most users will opt for Word Grids, which produces the first four letters of eac
 We offer users the ability to employ two types of entropy when generating their Entropy Grids - 128-bit and 19580-bit:
 
     - The 128-bit option provides users with *deterministic* entropy grid reproducibility - i.e. the ability to backup grids in plain text as 12 words and regenerate later them using the Entropy Grid Generator. Whilst this may seem counter-intuitive to the concept of Border Wallets, grid reproducability using words that can be written in plain text may serve an important role for some users, e.g. for backup, grid-distribution, or decoy purposes, etc.
-    - The 19580-bit option provides users with the *maximum* level of entropy. Because of the immense randomness of these grids (!2048), regeneration using backup words is not possible. These grids must therefore be saved and stored safely, physically or digitally, as there is no way to regenerate them later using backup words.
+    - The 19580-bit option provides users with the *maximum* level of entropy. Because of the immense randomness of these grids (2048! is mathematical notation for 2048 factorial, a number so large that it is really hard to comprehend: 1.67 &times; 10<sup>5894</sup>), regeneration using backup words is not possible. These grids must therefore be saved and stored safely, physically or digitally, as there is no way to regenerate them later using backup words.
 
 When you hit "GENERATE GRID", your grid - formatted as a 2-page PDF - will be sent to your downloads folder or a new tab in your browser.
 
@@ -86,7 +82,7 @@ The vast majority of users will choose to use Word Grids as opposed to the other
 
 Number and Index Grids are virtually identical to each other when not randomised, with one key difference -the Number Grid uses an index of 0001 (attributable to the seed word 'Abandon') whereas the Index Grid uses an index of 0000 (also for 'Abandon').
 
-Note that if you choose to generate both a Number and Index Grid together (not recommended!), the outputted files will be totally different.
+> Note that if you choose to generate both a Number and Index Grid together (not recommended!), the outputted files will be totally different.
 
 #### The Hex Grid
 
@@ -97,5 +93,7 @@ Note that if you choose to generate both a Number and Index Grid together (not r
 Hex Grids draw from the corresponding alphanumeric hexadecimal character set, with base 16. There are some but relatively few people who would want to use this - those that do will need no further expansion here on how they are used.
 
 > The four types of Entropy Grids that the Entropy Grid Generator produces do NOT co-respond to each other. They will ALL be different to one another, and to each successive one that is generated. They should therefore be treated as unique Entropy Grids. We recommend choosing to standardise on one type of Entropy Grid (e.g. Word Grid) and sticking with it.
+>
+> **If you do wish to print multiple types of the exact same grid**, for example, one hex and one words but both with the same entropy, you should select a deterministic entropy grid and use the generated seed from that grid to reproduce your grid in different types.
 
 OK. That's the grids covered; let's move to the next section to start creating your Border Wallet.

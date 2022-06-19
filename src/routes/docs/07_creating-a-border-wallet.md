@@ -34,7 +34,7 @@ Here I have chosen to honour Bitcoin using a pixelated version of its logo as my
 
 > Step 4: Transpose your 23-cell pattern from your blank grid to your Entropy Grid.
 
-Did we mention that the order which we reference each word is crucial? Well, it's worth mentioning again. What we can see here is that the 23 seed words from this example, following our order of top-down, left to right, are:
+Did we mention that **the order which we reference each word is crucial**? Well, it's worth mentioning again. What we can see here is that the 23 seed words from this example, following our order of top-down, left to right, are:
 
 1.) busi 2.) enou.) 3.) neut 4.) casi 5.) matr 6.) life
 7.) grit 8.) betw 9.) tren 10.) dash 11.) quar 12.) evok
@@ -47,7 +47,9 @@ Did we mention that the order which we reference each word is crucial? Well, it'
 
 > Step 5: Calculate checksum
 
-We recommend two options for calculating the checksum from your 11 or 23 seed words - the Seed Tool by Bitcoiner.Guide and the SeedSigner.
+> **TODO: Explain EGG Last word Generator**
+
+We recommend two other options for calculating the checksum from your 11 or 23 seed words - the Seed Tool by Bitcoiner.Guide and the SeedSigner.
 
 #### Seed Tool by Bitcoiner.Guide
 
@@ -79,13 +81,13 @@ If you want to know more about Checksums, [Arman the Parman](https://armanthepar
 
 > Step 6: Creating a passphrase
 
-We recommend employing a passphrase, but as this adds another thing to remember, then it's your choice whether you want to or not. Also known as a 25th word, as wallet passphrase can significantly increase the security of your wallet. Because this adds a new word to your wallet, it also creates a completely new wallet. So if you do create a passphrase, you will need to ensure you remember it.
+We **highly recommend employing a passphrase**, but as this adds another thing to remember, then it's your choice whether you want to or not. Also known as a 25th word, as wallet passphrase can significantly increase the security of your wallet. Because this adds a new word to your wallet, it also creates a completely new wallet. So if you do create a passphrase, you will need to ensure you remember it.
 
 > Step 7: Verifying that your wallet works
 
 In order to generate a receive address for your Border Wallet and transfer bitcoin to it, you will need to enter the relevant seed words from your Entropy Grid (your Border Wallet) plus the final checksum word into a Bitcoin computer, e.g. SeedSigner. In doing this, you will have verified that your wallet is valid. Test it by sending a small amount of funds to/from it.
 
-You can also use the [Seed Tool](https://github.com/BitcoinQnA/seedtool) **offline** to check + compare receive addresses, adding another layer of verification before sending funds.
+You can also use the [Seed Tool](https://github.com/BitcoinQnA/seedtool) **offline** to check and compare receive addresses, adding another layer of verification before sending funds.
 
 > Step 8: Checking your backups
 
@@ -96,6 +98,8 @@ We recommend performing a full recovery of your Border Wallet on a device of you
 Your unmarked Entropy Grid - which essentially serves as a map to buried treasure that only you know the combination lock for - may be kept physically or digitally, depending on your set-up and what you deem most appropriate. The Pattern to unlock the treasury, which you created, will be kept in your head.
 
 However, you may deem it appropriate to keep a copy of your pattern, stored with the same degree of care that you would give a full seed work backup, to serve as either an aide-memoire or to allow someone like your next-of-kin to recover your funds should something happen to you. The choice is yours.
+
+If you choose to store digital copies of these, you might consider encrypting the files. The Entropy Grid Generator contains a tool for encrypting files which we explain [here](/encryption).
 
 ### Legacy planning
 
