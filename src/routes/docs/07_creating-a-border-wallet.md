@@ -75,7 +75,7 @@ SeedSigner is a great Bitcoin computer (aka 'Hardware Wallet' or 'HWW' or 'Signi
 
 This is the screen that you need to generate the checksum from your seed words.
 
-![Photo of SeedSigner displaying the menu](/bw_docs_seedsigner_menu.png)
+![SeedSigner device displaying the menu](/bw_docs_seedsigner_menu.png)
 
 If you want to know more about Checksums, [Arman the Parman](https://armantheparman.com/dicev1/) provides his helpful deep-dive on this subject.
 

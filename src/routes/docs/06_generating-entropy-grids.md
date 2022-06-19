@@ -10,7 +10,7 @@ After downloading the Entropy Grid Generator, **please read these advisory notes
 
 Now that the Entropy Grid Generator HTML file is on your air-gapped machine, you can launch it and you will see this open locally within your browser:
 
-![image of the main screen of the Entropy Grid Generator](/bw-grab.png)
+![screenshot of the Entropy Grid Generator](/bw-grab.png)
 
 <caption>The Border Wallets Entropy Grid Generator UI. This runs locally, offline in your browser.</caption>
 
@@ -58,7 +58,7 @@ Let's examine this in a little more detail before we move on.
 
 Blank **Pattern Grids** let you plan which cells you will use to generate your Border Wallet - and then map them out. You can experiment with different starting points, end points, shapes, co-ordinates, etc. before you commit the Pattern to your Entropy Grid. Remember, you have 2 sides you can choose from - you might choose to use one side, or both - splitting your pattern or having two or more across your 23-preferred cells (if generating a 24-word Border Wallet).
 
-![image of 2 sheets of A4 paper printed with a blank grid on each](/bw_docs_two_blank_grids.png)
+![2 sheets of A4 paper printed with a blank grid on each](/bw_docs_two_blank_grids.png)
 
 <caption>The Blank Pattern Grid gives you 16 columns (marked A-P) x 128 rows, across 2 sides of A4, to choose from when devising your Border Wallet pattern or co-ordinates. That's 2048 cells to choose from</caption>
 
