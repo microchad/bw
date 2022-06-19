@@ -67,9 +67,15 @@ ul.contains-task-list > li {
 pre {
   max-width: 100%;
   word-wrap: break-word;
-  overflow-wrap: break-word;
   border-radius: 10px;
   padding: 15px;
   background-color: var(--a-dark);
   color: var(--a-light);
+  white-space: pre-wrap;
+  padding-left: calc(15px + 2em);
+  text-indent: calc(15px - 2em);
+}
+
+pre::before {
+  content: '\00BB\0020';
 }

@@ -6,7 +6,7 @@ pageNo: 9
 
 # Encryption
 
-<blockquote>Note: encryption is in alpha testing currently.</blockquote>
+> **Note:** encryption is in alpha testing currently.
 
 The Entropy Grid Generator provides users with the ability to encrypt, and then decrypt, their entropy grids inside the tool.
 
@@ -15,12 +15,14 @@ to store their entropy grids in digital format and who want an additional level 
 
 ## Encrypting files
 
-To encrypt your Entropy Grid, you need to create and remember a security passphrase and then drag + drop your Entropy Grid into the box.
+To encrypt your Entropy Grid, you need to create and remember a security passphrase and then drag and drop your Entropy Grid into the box. Alternatively, you can click in the box to select the file from your file system.
 
 ![encryption](/encryption.png)
 
 <caption>Once you have created a secure passphrase, you will be able to drop your Border Wallet into the encryption box</caption>
 
+## Decrypting files
+
 To decrypt your Entropy Grid, you perform exactly the same step, except that instead of loading your Entropy Grid into the box (once you have entered your chosen passphrase), you load the encrypted version of your Entropy Grid into it. After a short amount of processing time, your Entropy Grid will be decrytped and available in your downloads folder or in a separate tab in your browser (depending on your browser settings).
 
-<blockquote> You MUST test that you are able to decrypt your Entropy Grid using the same passphrase before relying on this alpha-stage feature.</blockquote>
+> You **MUST** test that you are able to decrypt your Entropy Grid using the same passphrase before relying on this alpha-stage feature.
