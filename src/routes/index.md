@@ -14,4 +14,4 @@ For more information on how we do this, to access our Entropy Grid Generator (EG
 
 If you are already familiar with our Docs section, you can download the EGG here:
 
-[Download EGG](/download)
+[Download EGG](https://github.com/microchad/borderwallets/releases/download/0.2.3/borderwallets.html)

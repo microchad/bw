@@ -63,3 +63,13 @@ ul.contains-task-list > li {
   padding-left: 2rem;
   text-indent: -2rem;
 }
+
+pre {
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: var(--a-dark);
+  color: var(--a-light);
+}
