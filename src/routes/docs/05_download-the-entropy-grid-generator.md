@@ -8,20 +8,69 @@ pageNo: 5
 
 Let's dive in.
 
-Click [here](https://github.com/microchad/borderwallets/archive/refs/heads/gh-pages.zip) for direct download or use the link below to access the Entropy Grid Generator from our GitHub repo.
+Download the latest (version 0.2.7) files below or check out the older [releases](https://github.com/microchad/borderwallets/releases)
 
-> [GitHub Repository](https://github.com/microchad/borderwallets)
-> ​​
-> If visiting our repo you will be presented with the following screen.
+- **Border Wallets Entropy Grid Generator:** [borderwallets.html](https://github.com/microchad/borderwallets/releases/download/0.2.7/borderwallets.html)
+- **Hash File:** [borderwallets.txt](https://github.com/microchad/borderwallets/releases/download/0.2.7/borderwallets.txt)
+- **Signature File:** [borderwallets.txt.asc](https://github.com/microchad/borderwallets/releases/download/0.2.7/borderwallets.txt.asc)
 
-Click the green button marked "Code".
+# Verifying the Release
 
-![Screenshot from the GitHub repo](/bw_docs_gh.png)
+For all Bitcoin wallets, it’s a particularly important security step to verify the release. This is done to ensure the installation file you download has not been compromised. In order to do so, you’ll need to have gpg or gpg2 installed on your system (see here for [OSX](https://gpgtools.org/) or [Windows](https://www.gpg4win.org/), on Linux it’s preinstalled). Once you’ve installed gpg, you’ll need to use the command line. You can do this by opening Terminal.app in OSX, or Start > Run > cmd in Windows.
 
-A new menu drops-down. Click "Download ZIP" - then move it to your air-gapped/offline computer.
+First, import the keys that have signed this release (if you haven’t done so already):
 
-![Screenshot from the GitHub repo with the code menu open](/bw_docs_gh_code_menu_open.png)
+```
+curl https://borderwallets.com/pgp.txt | gpg --import
+```
 
-Once the ZIP is downloaded, move it to your offline, air-gapped machine.
+Once you have the required PGP keys, you can verify the release. Download borderwallets.txt and borderwallets.txt.asc from the links above to the same directory (for example, your Downloads directory). Then verify the manifest file with:
 
-![image of two laptops and a representation of a zip file](/bw_docs_two_laptops_zip.png)
+```
+cd Downloads
+gpg --verify borderwallets.txt.asc
+```
+
+You should see the following if the verification was successful:
+
+```
+gpg: assuming signed data in 'borderwallets.txt'
+gpg: Signature made Sun 19 Jun 2022 01:05:34 BST
+gpg:                using RSA key 6067FDB146D964B9BF5731FF876821EC200DC4DC
+gpg:                issuer "superphatarrow@pm.me"
+gpg: Good signature from "superphatarrow <superphatarrow@pm.me>" [ultimate]
+```
+
+Note that you may get a message similar to the following:
+
+```
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+```
+
+This simply means that you have not explicitly marked the public key as trusted in your own instance of GPG. In this case it is good practice to check the key against other sources, for example https://pgp.mit.edu/pks/lookup?search=superphatarrow%40pm.me&op=index (click on the link of the fingerprint to see the full public key). You can read more about validating keys in the [GnuPG Privacy Handbook](https://www.gnupg.org/gph/en/manual/x334.html).
+
+You have now verified the signature of the manifest file, which ensures integrity and authenticity of the manifest file - not the binaries! Next, depending on your operating system, you must re-compute the sha256 hash of the archive with `shasum -a 256 <filename>`. First, download the installation for your operating system (if you haven’t done so already). Then follow the steps below to compare it with the corresponding one in the manifest file, and ensure they match exactly. For example:
+
+## OSX
+
+```
+shasum --check borderwallets.txt
+borderwallets.html: OK
+```
+
+## Linux
+
+```
+sha256sum --check borderwallets.txt
+borderwallets.html: OK
+```
+
+## Windows
+
+```
+CertUtil -hashfile borderwallets.html SHA256 | findstr /v "hash"
+Compare result to the appropriate value in borderwallets.txt!
+```
+
+With all these steps complete you can be certain of the integrity of your download and can proceed to move the file called "borderwallets.html" to your **offline, air-gapped machine**.
