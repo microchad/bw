@@ -6,7 +6,7 @@ pageNo: 3
 
 # The Solution
 
-Border Wallets provides a method for memorise seeds using two components:
+Border Wallets provides a method for memorising seeds using two components:
 
 1) A randomised grid of seed words
 2) User-generated pattern(s) or cell co-ordinates.
