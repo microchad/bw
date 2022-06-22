@@ -8,8 +8,8 @@ pageNo: 3
 
 Border Wallets provides a method for memorising seed phrases using two components:
 
-1) A randomised grid of all 2048 seed words (an 'Entropy Grid')
-2) User-generated pattern(s) or cell co-ordinates.
+- A randomised grid of all 2048 seed words (an 'Entropy Grid').
+- User-generated pattern(s) or cell co-ordinates.
 
 Using our offline, browser-based tool (the 'Entropy Grid Generator' or EGG) - users can generate their own entropically-secured, randomised grid of all 2048 BIP-39 compliant seed words, and then apply a memorable pattern or set of cell co-ordinates to it - which only they know - in order to create a wallet.
 
