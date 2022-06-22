@@ -20,4 +20,4 @@ Whilst this well-established approach is fine for those who are confident in the
 
 The creation of Bitcoin, and Improvement Proposals such as BIP39, have transformed our ability to store and transport value over space and time. However, in the case of people who struggle to maintain their property rights in the physical domain or who move around a lot, paper or even steel backups can present storage and transportation challenges.
 
-> So we figured out a way to carry Bitcoin seedphrases in your head - more easily and more reliably.
+> So we have created an easier and more reliable way of carrying Bitcoin seedphrases in your head.
