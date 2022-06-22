@@ -28,7 +28,7 @@ This phenomenon is known as the "Picture Superiority Effect".
 
 Let's see if this works.
 
-In the spaces provided, have a go at recalling the missing words and the missing colours/pattern from the test above. No cheating!
+In the spaces provided, have a go at recalling the missing words and the missing pattern from the example we showed above. No cheating!
 
 ![alt text](/test.svg)
 
