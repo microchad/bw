@@ -39,4 +39,4 @@ When populating the list of seed words, only the first four letters of each word
 
 ![The letters of the word 'Elvis' are shuffled until it is rearranged to spell 'lives'](/Durstenfeld_shuffle.svg)
 
-<caption>Example of shuffling five letters using Durstenfeld's in-place version of the Fisher–Yates shuffle</caption>
+<caption>Example of shuffling five letters using Durstenfeld's in-place version of the Fisher–Yates shuffle</caption> 
