@@ -1,7 +1,6 @@
 <script>
   export let previous = '';
   export let next = '';
-  export let pageNo = 0;
 </script>
 
 <slot />
@@ -13,18 +12,14 @@
       <a
         href="/docs/{previous === 'Start'
           ? ''
-          : `${(pageNo - 1).toString().padStart(2, '0')}_` +
-            previous.trim().toLowerCase().replaceAll(' ', '-')}">{previous}</a
+          : previous.trim().toLowerCase().replaceAll(' ', '-')}">{previous}</a
       >
     {/if}
   </div>
   <div class="next">
     {#if next}
       <span>NEXT</span>
-      <a
-        href="/docs/{`${(pageNo + 1).toString().padStart(2, '0')}_` +
-          next.trim().toLowerCase().replaceAll(' ', '-')}">{next}</a
-      >
+      <a href="/docs/{next.trim().toLowerCase().replaceAll(' ', '-')}">{next}</a>
     {/if}
   </div>
 </div>

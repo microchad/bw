@@ -87,64 +87,60 @@
           <a on:click={toggleNav} sveltekit:prefetch href="/docs">Documentation</a>
         </li>
         <li class="nav-section-heading"><span>ABOUT</span></li>
-        <li class:active={$page.url.pathname === '/docs/01_the-problem'}>
-          <a on:click={toggleNav} sveltekit:prefetch href="/docs/01_the-problem">The Problem</a>
+        <li class:active={$page.url.pathname === '/docs/the-problem'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/the-problem">The Problem</a>
         </li>
-        <li class:active={$page.url.pathname === '/docs/02_words-vs-patterns'}>
-          <a on:click={toggleNav} sveltekit:prefetch href="/docs/02_words-vs-patterns"
+        <li class:active={$page.url.pathname === '/docs/words-vs-patterns'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/words-vs-patterns"
             >Words vs Patterns</a
           >
         </li>
-        <li class:active={$page.url.pathname === '/docs/03_the-solution'}>
-          <a on:click={toggleNav} sveltekit:prefetch href="/docs/03_the-solution">The Solution</a>
+        <li class:active={$page.url.pathname === '/docs/the-solution'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/the-solution">The Solution</a>
         </li>
         <li class="nav-section-heading"><span>GETTING STARTED</span></li>
-        <li class:active={$page.url.pathname === '/docs/04_workflow-and-elements'}>
-          <a on:click={toggleNav} sveltekit:prefetch href="/docs/04_workflow-and-elements"
+        <li class:active={$page.url.pathname === '/docs/workflow-and-elements'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/workflow-and-elements"
             >Workflow and Elements</a
           >
         </li>
-        <li class:active={$page.url.pathname === '/docs/05_download-the-entropy-grid-generator'}>
+        <li class:active={$page.url.pathname === '/docs/download-the-entropy-grid-generator'}>
           <a
             on:click={toggleNav}
             sveltekit:prefetch
-            href="/docs/05_download-the-entropy-grid-generator"
-            >Download the Entropy Grid Generator</a
+            href="/docs/download-the-entropy-grid-generator">Download the Entropy Grid Generator</a
           >
         </li>
-        <li class:active={$page.url.pathname === '/docs/06_generating-entropy-grids'}>
-          <a on:click={toggleNav} sveltekit:prefetch href="/docs/06_generating-entropy-grids"
+        <li class:active={$page.url.pathname === '/docs/generating-entropy-grids'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/generating-entropy-grids"
             >Generating Entropy Grids</a
           >
         </li>
-        <li class:active={$page.url.pathname === '/docs/07_creating-a-border-wallet'}>
-          <a on:click={toggleNav} sveltekit:prefetch href="/docs/07_creating-a-border-wallet"
+        <li class:active={$page.url.pathname === '/docs/creating-a-border-wallet'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/creating-a-border-wallet"
             >Creating a Border Wallet</a
           >
         </li>
-        <li class:active={$page.url.pathname === '/docs/08_regenerating-entropy-grids'}>
-          <a on:click={toggleNav} sveltekit:prefetch href="/docs/08_regenerating-entropy-grids"
+        <li class:active={$page.url.pathname === '/docs/regenerating-entropy-grids'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/regenerating-entropy-grids"
             >Regenerating Entropy Grids</a
           >
         </li>
-        <li class:active={$page.url.pathname === '/docs/09_encryption'}>
-          <a on:click={toggleNav} sveltekit:prefetch href="/docs/09_encryption">Encryption</a>
+        <li class:active={$page.url.pathname === '/docs/encryption'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/encryption">Encryption</a>
         </li>
-        <li class:active={$page.url.pathname === '/docs/10_legacy-planning'}>
-          <a on:click={toggleNav} sveltekit:prefetch href="/docs/10_legacy-planning"
-            >Legacy Planning</a
+        <li class:active={$page.url.pathname === '/docs/legacy-planning'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/legacy-planning">Legacy Planning</a
           >
         </li>
-        <li class:active={$page.url.pathname === '/docs/11_best-practices'}>
-          <a on:click={toggleNav} sveltekit:prefetch href="/docs/11_best-practices"
-            >Best Practices</a
-          >
+        <li class:active={$page.url.pathname === '/docs/best-practices'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/best-practices">Best Practices</a>
         </li>
-        <li class:active={$page.url.pathname === '/docs/12_gotchas'}>
-          <a on:click={toggleNav} sveltekit:prefetch href="/docs/12_gotchas">Gotchas</a>
+        <li class:active={$page.url.pathname === '/docs/gotchas'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/gotchas">Gotchas</a>
         </li>
-        <li class:active={$page.url.pathname === '/docs/13_bip39-seed-words'}>
-          <a on:click={toggleNav} sveltekit:prefetch href="/docs/13_bip39-seed-words"
+        <li class:active={$page.url.pathname === '/docs/bip39-seed-words'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/bip39-seed-words"
             >BIP39 Seed Words</a
           >
         </li>
