@@ -19,7 +19,7 @@ Whilst our EGG tool is browser-based, it is designed to work offline on an air-g
 
 ![A grid of words with a pattern on it](/bw_docs_entropy_grid_top_half_patterned.png)
 
-### Evil maid attack difficulty adjustment = UP.  Memorisation difficulty adjustment = DOWN.
+### Evil maid attack difficulty adjustment = UP. Memorisation difficulty adjustment = DOWN.
 
 As each unique Entropy Grid contains a complete list of all BIP-39 seed words in randomised format, and the users' patterns exist only in their heads, users will store their Entropy Grid (or its Recovery Phrase) physically or digitally. Because the Entropy Grid comprises all 2048 Bitcoin seed words, any evil maid attacks are faced with an upward difficulty adjustment that is significantly higher than they would be with plain text seedphrase backups. However, for digital storage, e.g. secure offline (USB) or online cloud storage, the EGG also features native encryption and decryption capabilities to provide more security.
 
@@ -51,4 +51,4 @@ When populating the list of seed words, only the first four letters of each word
 
 ![The letters of the word 'Elvis' are shuffled until it is rearranged to spell 'lives'](/Durstenfeld_shuffle.svg)
 
-<caption>Example of shuffling five letters using Durstenfeld's in-place version of the Fisher–Yates shuffle</caption> 
+<caption>Example of shuffling five letters using Durstenfeld's in-place version of the Fisher–Yates shuffle</caption>
