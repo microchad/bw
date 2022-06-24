@@ -33,4 +33,3 @@ In the spaces provided, have a go at recalling the missing words and the missing
 ![alt text](/test.svg)
 
 How did you do? 😄
-
