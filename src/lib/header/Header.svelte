@@ -194,6 +194,7 @@
     transition: 0.3s;
     display: none;
     position: absolute;
+    z-index: 99;
   }
   nav.active {
     /* left: calc(100vw - 30rem); */
