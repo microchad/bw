@@ -10,11 +10,11 @@ While some of these steps may seem intimidating to people that are not used to w
 
 Let's dive in!
 
-Download the latest (version 0.2.7) files below or check out the older [releases](https://github.com/microchad/borderwallets/releases)
+Download the latest files below or check out the older [releases](https://github.com/microchad/borderwallets/releases)
 
-- **Border Wallets Entropy Grid Generator:** [borderwallets.html](https://github.com/microchad/borderwallets/releases/download/0.2.7/borderwallets.html)
-- **Hash File:** [borderwallets.txt](https://github.com/microchad/borderwallets/releases/download/0.2.7/borderwallets.txt)
-- **Signature File:** [borderwallets.txt.asc](https://github.com/microchad/borderwallets/releases/download/0.2.7/borderwallets.txt.asc)
+- **Border Wallets Entropy Grid Generator:** [borderwallets.html](https://github.com/microchad/borderwallets/releases/latest/download/borderwallets.html)
+- **Hash File:** [borderwallets.txt](https://github.com/microchad/borderwallets/releases/latest/download/borderwallets.txt)
+- **Signature File:** [borderwallets.txt.asc](https://github.com/microchad/borderwallets/releases/latest/download/borderwallets.txt.asc)
 
 # Verifying the Release
 

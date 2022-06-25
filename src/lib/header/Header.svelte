@@ -144,6 +144,9 @@
             >BIP39 Seed Words</a
           >
         </li>
+        <li class:active={$page.url.pathname === '/docs/faq'}>
+          <a on:click={toggleNav} sveltekit:prefetch href="/docs/faq">FAQ</a>
+        </li>
       </ul>
     </nav>
   {/if}
