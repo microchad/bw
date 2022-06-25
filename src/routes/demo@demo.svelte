@@ -1,1 +1,13 @@
-<iframe src="./demo.html" style="width: 100vw; height: 100vh" frameborder="0" />
+<script>
+  let htmlContent = '';
+  fetch('./demo.html')
+    .then((response) => {
+      console.dir(response);
+      return response.text();
+    })
+    .then((html) => {
+      htmlContent = html;
+    });
+</script>
+
+{@html htmlContent}
