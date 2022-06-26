@@ -1,14 +1,101 @@
 <script>
+  import { browser } from '$app/env';
+  import Grid from '../lib/Grid.svelte';
+  import { wordList } from '../lib/wordList';
+  export let gridArray = [
+    [
+      {
+        word: '',
+        pattern: ''
+      }
+    ]
+  ];
+  const populateGrid = () => {
+    if (browser) {
+      const gridDiv = document.querySelector('.bg-animation');
+      if (gridDiv) {
+        const cs = getComputedStyle(gridDiv);
+        const w = parseInt(cs.width);
+        const h = parseInt(cs.height);
+        const remPX = parseFloat(getComputedStyle(document.documentElement).fontSize);
+        const cellWidth = 4 * remPX;
+        const cellHeight = remPX + 5;
+        const cols = Math.floor(w / cellWidth);
+        const rows = Math.floor(h / cellHeight);
+        const getRandom = (m = 3) => crypto.getRandomValues(new Uint8Array(1))[0] % m;
+        for (let i = 0; i < rows; i++) {
+          if (gridArray[i] === undefined) gridArray[i] = [];
+          for (let j = 0; j < cols; j++) {
+            gridArray[i][j] = {
+              word: wordList[getRandom(wordList.length)].slice(0, 4) || 'test',
+              pattern: 'is-plain'
+            };
+          }
+        }
+        const resetPattern = () => [
+          {
+            row: getRandom(rows),
+            col: getRandom(cols)
+          }
+        ];
+        let patternArray = resetPattern();
+        const patternNextCell = () => {
+          const i = patternArray.length;
+          // if we have 11 words, pause then restart
+          if (i === 12) {
+            // make non selected invisible
+            // gridArray.forEach((r) =>
+            //   r.forEach((c) => {
+            //     if (c.pattern === 'is-plain') c.pattern = 'is-hidden';
+            //     else console.log('c.pattern :>> ', c.pattern);
+            //   })
+            // );
+            // restart process
+            setTimeout(populateGrid, 5000);
+            return;
+          }
+          const x = getRandom() - 1;
+          const y = getRandom() - 1;
+          // can't choose the same cell
+          if (!x && !y) {
+            patternNextCell();
+            return;
+          }
+          const l = patternArray[i - 1];
+          const next = {
+            row: (l.row + x + rows) % rows,
+            col: (l.col + y + cols) % cols
+          };
+          // check this is a new cell
+          const unique = !patternArray.find((c) => c.row === next.row && c.col === next.col);
+          if (!unique) {
+            patternNextCell();
+            return;
+          }
+          patternArray.push(next);
+          // change the class
+          gridArray[next.row][next.col].pattern = 'is-pattern';
+          // wait a second before furthering the pattern
+          setTimeout(patternNextCell, 1000);
+        };
+        patternNextCell();
+      }
+    }
+  };
+  if (browser) {
+    requestAnimationFrame(populateGrid);
+  }
 </script>
 
 <div class="bg-animation">
+  <Grid tableData={gridArray} />
   <div class="overlay">
     <div class="welcome">
       <h1>BORDER WALLETS</h1>
       <h2>Introducing a new way to quickly and reliably memorise Bitcoin seed phrases.</h2>
     </div>
     <div class="btn-container">
-      <a href="/docs" class="btn btn-primary">Learn More</a>
+      <a href="/docs" class="btn btn-primary">Learn How</a>
       <a href="/docs/download-the-entropy-grid-generator" class="btn">Download EGG</a>
     </div>
   </div>
@@ -44,15 +131,11 @@
 <style>
   .bg-animation {
     width: 100%;
-    height: 100vh;
-    background-color: white;
+    height: calc(100vh - 96px);
+    background-color: var(--bg-color);
+    color: var(--primary-color);
     position: relative;
     margin-top: -1rem;
-    margin-left: -1rem;
-    background-image: url(./BorderWallet.gif);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: contain;
   }
   .overlay {
     color: var(--accent-color);
@@ -62,7 +145,8 @@
     width: 100%;
     height: 100%;
     padding: 10%;
-    background-color: #00000055;
+    /* background-color: #00000055; */
+    top: 0;
   }
   .btn-container {
     margin: 0 auto;
@@ -72,7 +156,7 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 70%;
+    bottom: 20%;
     width: 80%;
   }
   .btn {
