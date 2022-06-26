@@ -22,7 +22,7 @@
         const cellHeight = remPX + 5;
         const cols = Math.floor(w / cellWidth);
         const rows = Math.floor(h / cellHeight);
-        const getRandom = (m = 3) => crypto.getRandomValues(new Uint8Array(1))[0] % m;
+        const getRandom = (m = 3) => crypto.getRandomValues(new Uint32Array(1))[0] % m;
         for (let i = 0; i < rows; i++) {
           if (gridArray[i] === undefined) gridArray[i] = [];
           for (let j = 0; j < cols; j++) {
@@ -34,8 +34,8 @@
         }
         const resetPattern = () => [
           {
-            row: Math.floor(rows / 2) + getRandom() - 1,
-            col: Math.floor(cols / 2) + getRandom() - 1
+            row: (Math.floor(rows / 2) + getRandom() - 1 + rows) % rows,
+            col: (Math.floor(cols / 2) + getRandom() - 1 + cols) % cols
           }
         ];
         let patternArray = resetPattern();
