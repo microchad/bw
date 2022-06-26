@@ -28,7 +28,8 @@
     margin: 0 auto;
   }
   td {
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
     text-align: center;
     vertical-align: middle;
   }

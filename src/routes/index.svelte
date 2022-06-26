@@ -34,8 +34,8 @@
         }
         const resetPattern = () => [
           {
-            row: getRandom(rows),
-            col: getRandom(cols)
+            row: Math.floor(rows / 2) + getRandom() - 1,
+            col: Math.floor(cols / 2) + getRandom() - 1
           }
         ];
         let patternArray = resetPattern();
@@ -139,7 +139,7 @@
   }
   .overlay {
     color: var(--accent-color);
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 10px black;
     text-align: center;
     position: absolute;
     width: 100%;
@@ -169,6 +169,7 @@
     cursor: pointer;
     text-align: center;
     text-shadow: none;
+    margin: 1rem;
   }
   .btn-primary {
     color: var(--header-bg-color);
