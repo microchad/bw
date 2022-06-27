@@ -6,34 +6,36 @@ pageNo: 3
 
 # The Solution
 
-Border Wallets provides a method for memorising seed phrases using two components:
+Border Wallets provide a method for memorising seed phrases using two components:
 
 - A randomised grid of all 2048 seed words (an 'Entropy Grid')
 - User-generated pattern(s) or cell co-ordinates (a "Pattern).
 
 > Combined, these two factors comprise your Border Wallet.
 
-Using our offline, browser-based tool (the 'Entropy Grid Generator' or EGG) - users can generate their own entropically-secured, randomised grid of all 2048 BIP-39 compliant seed words, and then apply a memorable pattern or set of cell co-ordinates to it - which only they know - in order to create a wallet.
+Using our offline, browser-based Entropy Grid Generator (or 'EGG') - users can generate their own entropically-secured, randomised grid of all 2048 BIP-39 compliant seed words, and then apply a memorable pattern or set of cell co-ordinates to it - which only they know - in order to create a wallet.
 
-Whilst our EGG tool is browser-based, it is designed to work offline on an air-gapped PC, Mac or Linux machine - or even using Tails - and runs locally in the user's browser. To use, simply download it, transfer it to the machine of your choice and start generating Entropy Grids.
+Whilst the EGG is browser-based, it is designed to work offline on an air-gapped PC, Mac or Linux machine - or even using Tails - and runs locally in the browser. To use it, simply download it, transfer it to the machine of your choice and start generating Entropy Grids.
 
 ![A grid of words with a pattern on it](/bw_docs_entropy_grid_top_half_patterned.png)
 
 ### Evil maid attack difficulty adjustment = UP. Memorisation difficulty adjustment = DOWN.
 
-As each unique Entropy Grid contains a complete list of all BIP-39 seed words in randomised format, and the users' patterns exist only in their heads, users will store their Entropy Grid (or its Recovery Phrase) physically or digitally. Because the Entropy Grid comprises all 2048 Bitcoin seed words, any evil maid attacks are faced with an upward difficulty adjustment that is significantly higher than they would be with plain text seedphrase backups. However, for digital storage, e.g. secure offline (USB) or online cloud storage, the EGG also features native encryption and decryption capabilities to provide more security.
+As each unique Entropy Grid contains a complete list of all BIP-39 seed words in randomised format, and the users' patterns exist only in their heads, users will store their Entropy Grid (or its Recovery Phrase) physically or digitally. Because the Entropy Grid comprises all 2048 Bitcoin seed words, any evil maid attacks are faced with an upward difficulty adjustment that is significantly higher than they would be with plain text seedphrase backups.
 
 ### Additional security
 
+#### Encryption
+
+For entropy grids stored digitally, e.g. USB thumbdrive or secure online cloud storage, the EGG features an option for users to natively encrypt & decrypt their Entropy Grids all within the tool's interface. Once users have created a secure password, they drag + drop their Entropy Grid into the tool for encryption, and then do the same with their encrypted .json file for decryption using the same password.
+
 #### Wallet passphrase
 
-For even more security, users can combine their choice of pattern with a sufficiently memorable but hard-to-guess wallet passphrase. In fact, there is no reason why a user cannot generate multiple patterns - or even multiple Entropy Grids - to create a multi-sig wallet that they can carry in their head.
+For added security, users can combine their choice of pattern with a sufficiently memorable but hard-to-guess wallet passphrase. In fact, there is no reason why a user cannot generate multiple patterns - or even multiple Entropy Grids as discussed below - to create a multi-sig wallet that they can carry in their head.
 
 #### Signal vs Noise
 
-As there is essentially zero cost for generating Entropy Grids, users could viably generate dozens (or even hundreds) of individually numbered grids, storing their preferred grid amongst considerable 'noise'. Imagine a secure online storage folder, which has 100 unique and individually numbered Entropy Grids, and you (the user) being the only person who knows which grid(s) you have used to generate your Border Wallet.
-
-With that said, we strongly recommend keeping your Entropy Grids secret and undisclosed wherever possible.
+As there is essentially zero cost for generating Entropy Grids, users could viably generate dozens (or even hundreds) of individually numbered grids, storing their preferred grid amongst considerable 'noise'. Imagine having 100 unique and individually numbered Entropy Grids, and you (the user) being the only person who knows which grid(s) you have used to generate your Border Wallet.
 
 #### Obfuscation & Gridception
 
