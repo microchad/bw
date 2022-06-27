@@ -18,7 +18,7 @@ Using our offline, browser-based Entropy Grid Generator (or 'EGG') - users can g
 Whilst the EGG is browser-based, it is designed to work offline on an air-gapped PC, Mac or Linux machine - or even using Tails - and runs locally in the browser. To use it, simply download it, transfer it to the machine of your choice and start generating Entropy Grids.
 
 ![A grid of words with a pattern on it](/bw_docs_entropy_grid_top_half_patterned.png)
-<caption>An example of a memorable, 23-cell pattern applied to an Entropy Grid to create a Border Wallet. The 24th/final word (the 'checksum') can also be calculated natively within the EGG.</caption>
+<caption>An example of a memorable, 23-cell pattern applied to an Entropy Grid to create a Border Wallet. The 24th / final word (the 'checksum') - which the user will memorise - can be calculated natively within the EGG.</caption>
 
 ### Evil maid attack difficulty adjustment = UP. Memorisation difficulty adjustment = DOWN.
 
