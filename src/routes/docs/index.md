@@ -2,9 +2,7 @@
 next: The Problem
 pageNo: 0
 ---
-# Intro
-
-**A new way to quickly memorise and easily recall Bitcoin seed words.**
+## A new way to quickly memorise and easily recall Bitcoin seed words
 
 Bitcoin Border Wallets solve a problem faced by many Bitcoiners; how to quickly, easily, securely and reliably memorise 12 or 24 (or more) seed words. The idea draws on a concept known as the Picture Superiority Effect, and employs the use of user-generated patterns applied to a randomised map of BIP-39 compliant words - offline, in a secure, air-gapped setting.
 
