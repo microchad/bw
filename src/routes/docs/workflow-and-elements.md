@@ -15,7 +15,7 @@ The key elements that you will be working with, produced in the order that you w
 1. Pattern Grid - our tool produces a blank version, which you will use to create your 23-cell patterns or mark your preferred co-ordinates
 1. Entropy Grid - with seed words, number, indices or hex characters, randomised by our Fisher-Yates shuffle algorithm. Once your Pattern Grid is completed, you will transpose it to your Entropy Grid.
 
-Your Border Wallet is produced when you combine 1+2, plus a 24th 'checksum' word (instructions are included later) and, if you want to use one, a passphrase.
+Your Border Wallet is produced when you combine you pattern, the corresponding entropy grid cells, and a final, 24th 'checksum' word (instructions are included later). Users may also want to use a passphrase.
 
 ![summary1](/summary1.svg)
 
@@ -27,7 +27,7 @@ Your Border Wallet is produced when you combine 1+2, plus a 24th 'checksum' word
 
 Once you have completed these steps, and memorised your pattern or cell co-ordinates, you will retain the unmarked Entropy Grid, and either dispose of the Pattern Grid or treat it with the same high-degree of OpSec that you would a full, hand-written seed word backup. The same applies for the marked-up Entropy Grid - this literally contains the full key combination to your stack, so you must choose to either destroy it or treat it with the utmost security care.
 
-The whole point of the Border Wallet concept is to be able to memorise your Pattern and to carry this pattern in your head. Therefore the only remaining token of your exercise should be the unmarked Entropy Grid - which, when combined with the Pattern allows you to restore your wallet when necessary.
+The whole point of the Border Wallet concept is to be able to memorise your Pattern and to carry this pattern in your head. Therefore, subject to your use case, the only remaining token of your exercise is likely to be the unmarked Entropy Grid - which, when combined with the Pattern, allows you to restore your wallet when necessary.
 
 ![summary3](/summary3.svg)
 
