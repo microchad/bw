@@ -6,8 +6,6 @@ pageNo: 5
 
 # Download the Entropy Grid Generator
 
-While some of these steps may seem intimidating to people that are not used to working in the command line, they are extremely important for your security and not as daunting if you just take them one step at a time.
-
 Let's dive in!
 
 Download the latest files below or check out the older [releases](https://github.com/microchad/borderwallets/releases)
@@ -17,6 +15,8 @@ Download the latest files below or check out the older [releases](https://github
 - **Signature File:** [borderwallets.txt.asc](https://github.com/microchad/borderwallets/releases/latest/download/borderwallets.txt.asc)
 
 # Verifying the Release
+
+**While the following steps may seem intimidating to people that are not used to working in the command line, they are extremely important for your security and not as daunting if you just take them one step at a time.**
 
 For all Bitcoin wallets, it’s a particularly important security step to verify the release. This is done to ensure the Entropy Grid Generator file you download has not been compromised. In order to do so, you’ll need to have gpg or gpg2 installed on your system (see here for [OSX](https://gpgtools.org/) or [Windows](https://www.gpg4win.org/), on Linux it’s preinstalled). Once you’ve installed gpg, you’ll need to use the command line. You can do this by opening `Terminal.app` in OSX, or `Start > Run > cmd` in Windows.
 
@@ -33,6 +33,8 @@ Once you have the required PGP keys, you can verify the release. Download border
 ```
 cd Downloads
 ```
+
+Uppercase & lowercase lettering must be honoured, so if your Downloads folder beings with a small 'd', use that.
 
 Once you are in the correct directory, you can verify the signatures are genuine using the `gpg --verify borderwallets.txt.asc` command. The output should be similar to what follows for a successful verification:
 
