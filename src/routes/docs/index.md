@@ -2,7 +2,7 @@
 next: The Problem
 pageNo: 0
 ---
-#Intro
+*Intro
 
 **A new way to quickly memorise and easily recall Bitcoin seed words.**
 
