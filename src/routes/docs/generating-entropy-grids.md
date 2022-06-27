@@ -6,17 +6,17 @@ pageNo: 6
 
 # Generating Entropy Grids
 
-After downloading the Entropy Grid Generator, **please read these advisory notes carefully**, and also the pages that follow about creating Border Wallets.
+**Please read the advisory notes below carefully**, and also the pages that follow about creating Border Wallets.
 
-Now that the Entropy Grid Generator HTML file is on your air-gapped machine, you can launch it and you will see this open locally within your browser:
+After downloading the Entropy Grid Generator (filename: borderwallets.html) and transferring it to your air-gapped machine, you can launch it. You will see this open locally within your browser:
 
-![screenshot of the Entropy Grid Generator](/bw-grab.png)
+![screenshot of the Entropy Grid Generator](/bw-grab2.png)
 
 <caption>The Border Wallets Entropy Grid Generator UI. This runs locally, offline in your browser.</caption>
 
-The Entropy Grid Generator allows users to generate five types of grids - one blank, and four other randomly populated Entropy Grids.
+The Entropy Grid Generator allows users to generate five types of grids - one blank, and four types of Entropy Grid.
 
-1. A Pattern Grid (recommended for all users).
+1. A Pattern Grid (applicable for all users).
    This provides you with a blank grid to create your own patterns or to mark your preferred cell co-ordinates. This is the first grid you should download and create, so as not to be influenced by the words outputted (word bias)
 
 2. A Word Grid (recommended for 99% of users).
@@ -44,7 +44,9 @@ Most users will opt for Word Grids, which produces the first four letters of eac
 We offer users the ability to employ two types of entropy when generating their Entropy Grids - 128-bit and 19580-bit:
 
     - The 128-bit option provides users with *deterministic* entropy grid reproducibility - i.e. the ability to backup grids in plain text as 12 words and regenerate later them using the Entropy Grid Generator. Whilst this may seem counter-intuitive to the concept of Border Wallets, grid reproducability using words that can be written in plain text may serve an important role for some users, e.g. for backup, grid-distribution, or decoy purposes, etc.
-    - The 19580-bit option provides users with the *maximum* level of entropy. Because of the immense randomness of these grids (2048! is mathematical notation for 2048 factorial, a number so large that it is really hard to comprehend: 1.67 &times; 10<sup>5894</sup>), regeneration using backup words is not possible. These grids must therefore be saved and stored safely, physically or digitally, as there is no way to regenerate them later using backup words.
+    - The 19580-bit option provides users with the *maximum* level of entropy. Because of the immense randomness* of these grids, regeneration using backup words is not possible. These grids must therefore be saved and stored safely, physically or digitally, as there is no way to regenerate them later using backup words.
+
+_*2048! (2048 factorial) - a number so large that it is really hard to comprehend: 1.67 &times; 10<sup>5894</sup>_
 
 When you hit "GENERATE GRID", your grid - formatted as a 2-page PDF - will be sent to your downloads folder or a new tab in your browser.
 
@@ -62,7 +64,7 @@ Blank **Pattern Grids** let you plan which cells you will use to generate your B
 
 <caption>The Blank Pattern Grid gives you 16 columns (marked A-P) x 128 rows, across 2 sides of A4, to choose from when devising your Border Wallet pattern or co-ordinates. That's 2048 cells to choose from</caption>
 
-Once you have settled on a sufficiently complex, well-placed and memorable shape or set of co-ordinates (which we call your Pattern), you will then need to transpose it onto one of the four Entropy Grids (choose from the Word, Number, Index or Hex Grid based on your comfort/familiarity with each) in order to start generating your Border Wallet.
+Once you have settled on a sufficiently complex, well-placed and memorable shape or set of co-ordinates (which we call your Pattern), you will then need to transpose it onto your choice Entropy Grids (you choose from the Word, Number, Index or Hex Grid based on your comfort/familiarity with each) in order to start generating your Border Wallet. If you are new to this, choose the Word Grid.
 
 ### Entropy Grids
 
