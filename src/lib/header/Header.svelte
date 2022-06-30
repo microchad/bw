@@ -39,6 +39,7 @@
         class="logo"
         viewBox="0 0 270 150"
         xml:space="preserve"
+        alt="Border Wallets Logo linking to the home page"
       >
         <g>
           <path
@@ -215,19 +216,20 @@
     font-weight: 100;
     font-size: small;
     border-top: 1px solid var(--accent-color);
+    color: var(--accent-color);
     display: block;
   }
 
   .nav-section-heading:before {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    content: '\02795';
     font-size: 13px;
-    color: var(--header-color);
+    color: var(--accent-color);
     float: left;
     margin-right: 5px;
   }
 
   .is-open:before {
-    content: '\2796'; /* Unicode character for "minus" sign (-) */
+    content: '\2796';
   }
 
   a:hover {

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Commit Your Wallet To Memory in Seconds",
+    "description": "Memorising Bitcoin seed phrases (typically between 12 and 24 randomised words) can be difficult. By exploiting a phenomenon known as the Picture Superiority Effect, we have devised a way make it significantly easier to do this - using user-generated patterns.",
+    "link": "/docs",
+    "linkText": "Learn more"
+  },
+  {
+    "title": "Make Your Own Border Wallet",
+    "description": "Using our offline, browser-based Entropy Grid Generator (or ‘EGG’) - you can generate your own entropically-secured, randomised grid of all 2048 BIP-39 compliant seed words, and then apply a memorable pattern or set of cell co-ordinates to it - which only you know - in order to create a wallet.",
+    "link": "/docs",
+    "linkText": "Learn more"
+  },
+  {
+    "title": "Fully Featured Tooling",
+    "description": "Generate many kinds of grids, regenerate them deterministically, encrypt them for digital storage, and calculate the final word of your seed phrase.",
+    "link": "/docs",
+    "linkText": "Learn more"
+  },
+  {
+    "title": "A Use Case for Your Situation",
+    "description": "Whether you are trying to cross a border with your wealth safely, planning your generational wealth legacy, or just want an easy way to remember the master seed to all of your bitcoin accounts, Border Wallets can help.",
+    "link": "/docs",
+    "linkText": "Learn more"
+  }
+]

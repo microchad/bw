@@ -2,6 +2,7 @@
   import { browser } from '$app/env';
   import Grid from '../lib/Grid.svelte';
   import { wordList } from '../lib/wordList';
+  import cards from '../lib/cards.json';
   export let gridArray = [
     [
       {
@@ -100,38 +101,23 @@
     </div>
   </div>
 </div>
-
-<h2>TLDR:</h2>
-<p>
-  Memorising Bitcoin seed phrases (typically between 12 and 24 randomised words) can be difficult.
-  By exploiting a phenomenon known as the Picture Superiority Effect, we have devised a way make it
-  significantly easier to do this - using user-generated patterns.
-</p>
-<p>
-  To assist with this process and make it robust and secure, we have created a tool (the Entropy
-  Grid Generator - or EGG) that randomises all 2048 Bitcoin BIP39 seed words and presents them back
-  to users as unique, randomised matrices; we call these 'Entropy Grids'.
-</p>
-<p>
-  When users generate their Entropy Grid, they apply their own choice of pattern(s) to them, therein
-  unlocking each applicable seed word to create uniquely memorable wallets; we call these 'Border
-  Wallets'.
-</p>
-<p>
-  For more information on how we do this, to access our Entropy Grid Generator (EGG), and for
-  instructions on how to create your own Border Wallet, read our <a href="/docs">Documentation</a> section
-  in detail.
-</p>
-<p>
-  If you are already familiar with our Docs section, you can download the EGG <a
-    href="/docs/download-the-entropy-grid-generator">here</a
-  >.
-</p>
+<div class="card-holder">
+  {#each cards as card}
+    <div class="card">
+      <h3 class="card-title">{card.title}</h3>
+      <p class="card-description">{card.description}</p>
+      <div class="card-link">
+        <a class="card-link-anchor" href={card.link}>{card.linkText}</a>
+      </div>
+    </div>
+  {/each}
+</div>
 
 <style>
   .bg-animation {
     width: 100%;
     height: calc(100vh - 96px);
+    height: calc(100svh - 96px);
     background-color: var(--bg-color);
     color: var(--primary-color);
     position: relative;
@@ -181,5 +167,74 @@
     padding: 1rem;
     border-radius: 2rem;
     margin-bottom: 1rem;
+  }
+  .card-holder {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 25vh;
+    flex-wrap: wrap;
+  }
+  .card {
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background-color: var(--alt-bg-color);
+    color: var(--secondary-color);
+  }
+
+  .card:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+  }
+  .card-link-anchor {
+    position: relative;
+    text-decoration: none;
+    color: var(--accent-color);
+  }
+
+  .card-link-anchor::after {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: var(--accent-color);
+    transition: all 0.3s;
+    text-shadow: 1px 1px 1px #00000055;
+  }
+
+  .card-link-anchor:hover::after {
+    width: 100%;
+  }
+  .card-title {
+    grid-row: 1/2;
+    justify-self: center;
+  }
+  .card-description {
+    grid-row: 3/4;
+    font-weight: 400;
+  }
+  .card-link {
+    grid-row: 4/5;
+    align-self: center;
+    justify-self: center;
+    background-color: #383e42dd;
+    padding: 1em;
+    border-radius: 1em;
+  }
+  @media (max-width: 1600px) {
+    .card-holder {
+      justify-content: center;
+    }
   }
 </style>

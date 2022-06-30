@@ -13,7 +13,6 @@
   pageList.unshift('Start');
   let pageIndex = pageList.findIndex((t = '') => urlify(t) === $page.url.pathname.slice(6));
   pageIndex = pageIndex < 0 ? 0 : pageIndex;
-  console.log('pageList[pageIndex] :>> ', pageList[pageIndex]);
   export let previousPage = pageIndex === 0 ? '' : pageList[pageIndex - 1];
   export let nextPage = pageIndex >= pageList.length - 1 ? '' : pageList[pageIndex + 1];
 </script>
