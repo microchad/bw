@@ -1,8 +1,3 @@
----
-previous: Regeneration and Recovery
-next: Border Crossing
----
-
 # Encryption
 
 > **Note:** encryption is in alpha testing currently.

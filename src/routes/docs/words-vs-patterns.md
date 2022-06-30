@@ -1,8 +1,3 @@
----
-previous: The Problem
-next: The Solution
----
-
 # Words vs Patterns
 
 Imagine having 5 seconds to memorise either (A) or (B) from the choices below.

@@ -1,8 +1,3 @@
----
-previous: Download the Entropy Grid Generator
-next: Creating a Border Wallet
----
-
 # Generating Entropy Grids
 
 **Please read the advisory notes below carefully**, and also the pages that follow about creating Border Wallets.

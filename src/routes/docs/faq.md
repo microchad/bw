@@ -1,8 +1,3 @@
----
-previous: Gotchas
-next: BIP39 Seed Words
----
-
 # FAQ
 
 ## Q: Aren't "brain wallets" a bad idea?

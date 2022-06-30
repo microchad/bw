@@ -1,8 +1,3 @@
----
-previous: Border Crossing
-next: Third Parties
----
-
 # Legacy Planning
 
 Here are a couple of examples of ways that you can leave wealth to your descendants. These are by no means the only ways and are just provided to illustrate some creative methods for accomplishing this. Once you grasp all the possibilities, you can taylor-make a solution that fits your circumstances best.

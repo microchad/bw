@@ -1,8 +1,3 @@
----
-previous: Final Word Generator
-next: Encryption and Decryption
----
-
 # Regenerating Entropy Grids
 
 ## Deterministic grid recreation

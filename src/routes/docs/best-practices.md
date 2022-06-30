@@ -1,8 +1,3 @@
----
-previous: Gridception
-next: Gotchas
----
-
 # Best Practices
 
 Here are some tips for ensuring you maximise the security of your Border Wallet. We will consider general tips and then tips specifically for two user modes - ⚔️ FIGHT and 🏃‍♂️ FLIGHT.

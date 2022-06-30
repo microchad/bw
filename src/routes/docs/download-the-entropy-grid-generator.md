@@ -1,8 +1,3 @@
----
-previous: Workflow and Elements
-next: Generating Entropy Grids
----
-
 # Download the Entropy Grid Generator
 
 Let's dive in!

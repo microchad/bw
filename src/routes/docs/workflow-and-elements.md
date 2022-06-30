@@ -1,8 +1,3 @@
----
-previous: The Solution
-next: Download the Entropy Grid Generator
----
-
 # Summary: Workflow & Elements
 
 Here is a quick workflow summary of the Border Wallet creation process. We will talk you through each step of this over the next few pages.

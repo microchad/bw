@@ -1,8 +1,3 @@
----
-previous: Generating Entropy Grids
-next: Grid Generation
----
-
 # Creating a Border Wallet
 
 Time to start making shapes!

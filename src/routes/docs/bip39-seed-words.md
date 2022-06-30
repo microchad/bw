@@ -1,7 +1,3 @@
----
-previous: FAQ
----
-
 # BIP39 Seed Words
 
 All 2048 BIP-39 compatible seed words and their 1st four letters.

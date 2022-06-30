@@ -1,8 +1,3 @@
----
-previous: Start
-next: Words vs Patterns
----
-
 # The Problem
 
 ## The seed phrases used for generating and backing-up Bitcoin wallets can be difficult to memorise and recall – especially over time, or in dynamic situations.

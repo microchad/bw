@@ -1,8 +1,3 @@
----
-previous: Best Practices
-next: FAQ
----
-
 # Gotchas
 
 > Users will want to minimise potential attack vectors when creating, storing and, if deemed necessary, publishing their Memory Maps.

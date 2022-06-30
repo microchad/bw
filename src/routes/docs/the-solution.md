@@ -1,8 +1,3 @@
----
-previous: Words vs Patterns
-next: Workflow and Elements
----
-
 # The Solution
 
 Border Wallets provide a method for memorising seed phrases using two components:

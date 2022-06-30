@@ -1,13 +1,13 @@
 <script>
   // @ts-nocheck
 
-  import { page, getStores } from '$app/stores';
+  import { page } from '$app/stores';
   import { slide } from 'svelte/transition';
   import { quintOut } from 'svelte/easing';
   import { browser } from '$app/env';
   import navList from './nav.json';
+  import { urlify } from '../../lib/urlify';
 
-  const urlify = (text = '') => text.trim().toLowerCase().replaceAll(' ', '-');
   let navHeaders = Object.keys(navList);
   let navActive = {};
   navHeaders.forEach(
