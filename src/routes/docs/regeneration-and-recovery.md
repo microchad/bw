@@ -1,7 +1,6 @@
 ---
-previous: Creating a Border Wallet
-next: Encryption
-pageNo: 8
+previous: Final Word Generator
+next: Encryption and Decryption
 ---
 
 # Regenerating Entropy Grids

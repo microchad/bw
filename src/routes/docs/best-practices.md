@@ -1,7 +1,6 @@
 ---
-previous: Legacy Planning
+previous: Gridception
 next: Gotchas
-pageNo: 11
 ---
 
 # Best Practices

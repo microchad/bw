@@ -1,7 +1,5 @@
 ---
-previous: Gotchas
-next: FAQ
-pageNo: 13
+previous: FAQ
 ---
 
 # BIP39 Seed Words

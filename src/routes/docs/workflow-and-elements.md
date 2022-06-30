@@ -1,7 +1,6 @@
 ---
 previous: The Solution
 next: Download the Entropy Grid Generator
-pageNo: 4
 ---
 
 # Summary: Workflow & Elements

@@ -1,7 +1,6 @@
 ---
-previous: Regenerating Entropy Grids
-next: Legacy Planning
-pageNo: 9
+previous: Regeneration and Recovery
+next: Border Crossing
 ---
 
 # Encryption

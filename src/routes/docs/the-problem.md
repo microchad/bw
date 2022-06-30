@@ -1,7 +1,6 @@
 ---
 previous: Start
 next: Words vs Patterns
-pageNo: 1
 ---
 
 # The Problem

@@ -1,7 +1,6 @@
 ---
-previous: BIP39 Seed Words
-next:
-pageNo: 14
+previous: Gotchas
+next: BIP39 Seed Words
 ---
 
 # FAQ
@@ -12,6 +11,6 @@ pageNo: 14
 
 It is worth noting that Border Wallets also have use cases beyond memorisation - as we explain elsewhere on this site.
 
-## Q: How are Border Wallets different from Memory Palaces? 
+## Q: How are Border Wallets different from Memory Palaces?
 
 **A:** Memory Palaces are another viable way of memorising seed words, and could actually be applied to Entropy Grids - where a user "journey" is constructed using cell co-ordinates. In the absense of an entropy grid, however, the Memory Palace method requires users to create a mnemonic for each word in order to recall them at a later date. With Border Wallets, the user is not required to memorise any seed words except for the Checksum (final word) or - using our Final Word Number feature - its corresponding 'number' which the EGG can use to remind users of the final word at a later time. Our focus with Border Wallets was to create the most simple, secure and most importantly reliable method for memorising seed words and recalling them at a later date. We do this by exploiting the Picture Superiority effect and calling on the user to only remember a Pattern and one seed word/number, and not 12, 24 or more.

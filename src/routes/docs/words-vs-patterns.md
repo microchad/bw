@@ -1,7 +1,6 @@
 ---
 previous: The Problem
 next: The Solution
-pageNo: 2
 ---
 
 # Words vs Patterns

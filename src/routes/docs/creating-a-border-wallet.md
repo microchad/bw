@@ -1,7 +1,6 @@
 ---
 previous: Generating Entropy Grids
-next: Regenerating Entropy Grids
-pageNo: 7
+next: Grid Generation
 ---
 
 # Creating a Border Wallet

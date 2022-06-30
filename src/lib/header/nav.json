@@ -1,0 +1,23 @@
+{
+  "INTRODUCTION": ["The Problem", "Words vs Patterns", "The Solution"],
+  "MAKING YOUR BORDER WALLET": [
+    "Workflow and Elements",
+    "Download the Entropy Grid Generator",
+    "Generating Entropy Grids",
+    "Creating a Border Wallet"
+  ],
+  "EXPLORING FEATURES": [
+    "Grid Generation",
+    "Final Word Generator",
+    "Regeneration and Recovery",
+    "Encryption and Decryption"
+  ],
+  "USE CASES": [
+    "Border Crossing",
+    "Legacy Planning",
+    "Third Parties",
+    "Gifting Bitcoin",
+    "Gridception"
+  ],
+  "RESOURCES": ["Best Practices", "Gotchas", "FAQ", "BIP39 Seed Words"]
+}

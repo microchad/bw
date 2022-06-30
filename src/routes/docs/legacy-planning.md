@@ -1,7 +1,6 @@
 ---
-previous: Encryption
-next: Best Practices
-pageNo: 10
+previous: Border Crossing
+next: Third Parties
 ---
 
 # Legacy Planning
