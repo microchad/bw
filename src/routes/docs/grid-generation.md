@@ -1,6 +1,6 @@
 # Grid Generation
 
-Border Wallets use with three key components in order to provide users with a reliable means to memorise their Bitcoin wallets:
+Border Wallets employ three key components in order to provide users with a reliable means to memorise their Bitcoin wallets:
 
 1. A Pattern
 2. An Entropy Grid
