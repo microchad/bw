@@ -77,7 +77,7 @@ We **highly recommend employing a passphrase**, but as this adds another thing t
 
 ## Step 7: Verifying that your wallet works
 
-In order to generate a receive address for your Border Wallet and transfer bitcoin to it, you will need to enter the relevant seed words from your Entropy Grid (your Border Wallet) plus the final checksum word into a Bitcoin computer, e.g. SeedSigner. In doing this, you will have verified that your wallet is valid. Test it by sending a small amount of funds to/from it.
+In order to generate a receive address for your Border Wallet and transfer bitcoin to it, you will need to enter the relevant seed words from your Entropy Grid (your Border Wallet) plus the final checksum word into a Bitcoin hardware wallet. In doing this, you will have verified that your wallet is valid. Test it by sending a small amount of funds to and from it.
 
 You can also use the [Seed Tool](https://github.com/BitcoinQnA/seedtool) **offline** to check and compare receive addresses, adding another layer of verification before sending funds.
 
