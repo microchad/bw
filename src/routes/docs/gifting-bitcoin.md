@@ -1,6 +1,8 @@
 # Gifting Bitcoin
 
-For people looking for a simple, secure and innovative way to help family members or friends set-up a fault-tolerant wallet, the Entropy Grid Generator provides a good solution.
+For people looking for a simple and secure way to help family members or friends set-up a fault-tolerant (noob-safe) wallet, the Entropy Grid Generator provides an useful solution.
+
+![an example of a gifting grid](/giftinggrid)
 
 By generating an Entropy Grid specifically for the purpose of kick-starting someone's sat stacking journey, you can use that grid (and our Final Word calculation feature) to create a secure wallet which you give to that person but also keep a **backup** of it should they ever need it.
 
