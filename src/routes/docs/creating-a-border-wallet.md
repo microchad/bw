@@ -54,14 +54,14 @@ By the time we reach the 24th entry, the final (checksum) word that is calculate
 
 In order to help make the memorisation of the final word even easier, the EGG includes a unique Final Word Number feature. This means that instead of needing to remember the word 'pair', I can just remember the number 5. I could even write this number down on my Entropy Grid - since on its own, it is meaningless and provides no clues about my final word without the other words.
 
-Users can, if necessary, use the scroll button at the end of the Final Word Number field to change the number to something more meaningful to them, but this also changes the final word itself. Therefore if you do change the number, the new checksum shown must be used to set-up your Border Wallet.
+Users can, if necessary, use the scroll button at the end of the Final Word Number field to change the number to something more meaningful to them, but this also changes the final word itself. Therefore if you do change the number, the new checksum shown must be used to set-up your Border Wallet. We don't advise users change the number (since it too is generated with entropy by the tool), but you can do if you want to.
 
 ![Screenshot of Final Word Calculator](/finalwordnumber4.png)
 ![Screenshot of Final Word Calculator](/finalwordnumber3.png)
 ![Screenshot of Final Word Calculator](/finalwordnumber2.png)
 <caption>The Final Word Calculation feature allows you to remember a number instead of the checksum word itself. You can use this same part of the tool to remind yourself of the checksum word to apply when creating or restoring your Border Wallet.</caption>
 
-If you want to know more about Checksums, [Arman the Parman](https://armantheparman.com/dicev1/) provides his helpful deep-dive on this subject.
+If you want to know more about Checksums, [Arman the Parman](https://armantheparman.com/dicev1/) provides a helpful deep-dive on this subject.
 
 ## Step 6: Creating a passphrase
 
