@@ -30,14 +30,15 @@ Here I have chosen to honour Bitcoin using a pixelated version of its logo as my
 
 Did we mention that **the order which we reference each word is crucial**? Well, it's worth mentioning again. What we can see here is that the 23 seed words from this example, following our order of top-down, left to right, are:
 
-| 1.) busi    | 2.) enou.  | 3.) neut  |
-| 4.) casi    | 5.) matr   | 6.) life  |
-| 7.) grit    | 8.) betw   | 9.) tren  |
-| 10.) dash   | 11.) quar  | 12.) evok |
-| 13.) wash   | 14.) liza  | 15.) armo |
-| 16.) trum   | 17.) exac  | 18.) arte |
-| 19.) drip   | 20.) read  | 21.) elit |
-| 21.) elit   | 22.) sing  | 23.) para
+| 1.) busi      | 2.) enou.     | 3.) neut  |
+| ------------- |:-------------:| -----:    |
+| 4.) casi      | 5.) matr      | 6.) life  |
+| 7.) grit      | 8.) betw      | 9.) tren  |
+| 10.) dash     | 11.) quar     | 12.) evok |
+| 13.) wash     | 14.) liza     | 15.) armo |
+| 16.) trum     | 17.) exac     | 18.) arte |
+| 19.) drip     | 20.) read     | 21.) elit |
+| 21.) elit     | 22.) sing     | 23.) para |
 
 | 24.) [checksum word - which I calculate] |
 
