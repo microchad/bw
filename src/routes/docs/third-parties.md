@@ -1,5 +1,4 @@
 # Third Parties
-### Not your pattern, not your coins
 
 One of the benefits of Bitcoin over physical bearer assets like gold is that multiple copies of seedphrases can be created and used as fault-tolerant backups.
 
