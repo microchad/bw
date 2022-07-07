@@ -85,7 +85,7 @@ You can also use the [Seed Tool](https://github.com/BitcoinQnA/seedtool) **offli
 
 We recommend performing a full recovery of your Border Wallet on a device of your choosing, **after** you initially set-up your wallet and transfer a small amount of funds to it but **before** transferring large amounts of funds to it. If you have not checked your backups, you do not have any backups!
 
-### Storing your Entropy Grid
+## Storing your Entropy Grid
 
 Your unmarked Entropy Grid - which essentially serves as a map to buried treasure that only you know the combination lock for - may be kept physically or digitally, depending on your set-up and what you deem most appropriate. The Pattern to unlock the treasury, which you created, will be kept in your head.
 
@@ -93,6 +93,6 @@ However, you may deem it appropriate to keep a copy of your pattern, stored with
 
 If you choose to store digital copies of these, you might consider encrypting the files. The Entropy Grid Generator contains a tool for encrypting files which we explain [here](/encryption).
 
-### Legacy planning
+## Legacy planning
 
 Border Wallets can be used as a secure way of transferring funds to children and other relatives without exposing Seed Words to them before you pass away. We cover this [here](borderwallets.com/docs/legacy-planning).
