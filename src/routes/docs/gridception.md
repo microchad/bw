@@ -1,6 +1,6 @@
 # Gridception
 
-Inspired by Christopher Nolan's film Inception (2010), 'gridception' is the name @SuperPhatArrow gave to the idea of using seed words in one Entropy Grid to create another Entropy Grid - and then doing the same again, and again, and again, if so desired - via our Determininstic Grid feature.
+Inspired by Christopher Nolan's film Inception (2010), 'gridception' is the name @SuperPhatArrow gave to the idea of using seed words in one Entropy Grid to create another Entropy Grid - and then doing the same again, and again, and again, if so desired - via our Determininstic Grid and Grid Regeneration features.
 
 ![inception-inspired entropy grids](/gridception.png)
 
