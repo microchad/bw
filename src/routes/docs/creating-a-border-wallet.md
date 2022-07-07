@@ -37,39 +37,29 @@ Did we mention that **the order which we reference each word is crucial**? Well,
 
 ![An Entropy Grid with a bitcoin symbol shaped pattern imposed onto the grid](/bw_docs_entropy_grid_top_half_patterned.png)
 
-<caption>Now we are able to see the 23 seed words that will provide the basis for my Border Wallet: busi enou neut casi matr life grit betw tren dash quar evok wash liza armo trum exac arte drip read elit sing para. We have selected 23 cells - not 24 - and decided on an order of their usage.</caption>
+<caption>Now we are able to see the 23 seed words that will provide the basis for my Border Wallet: business enough neutral casino matrix life grit between trend dash quarter evoke wash lizard armor trumpet exact artefact drip ready elite sing parade. We have selected 23 cells - not 24 - and decided on an order of their usage.</caption>
 
 > Step 5: Calculate checksum
 
-> **TODO: Explain EGG Last word Generator**
+The EGG includes a feature for calculating the Final (checksum) Word.
 
-We recommend two other options for calculating the checksum from your 11 or 23 seed words - the Seed Tool by Bitcoiner.Guide and the SeedSigner.
+Scroll to the Final Word tab in the tool, and enter each of the four (or three) letter seed words in the correct order into the tool. Make sure you check each word carefully! By the time you reach the 24th word, the EGG has automatically calculated and populated this field for you.
 
-#### Seed Tool by Bitcoiner.Guide
+<blockquote>The EGG will automatically suggest the longer version of the word, where applicable, as your enter the first four letters of it. **Select this longer word before moving to the next field**</blockquote>
 
-Bitcoin QnA and SuperPhatArrow's [Seed Tool](https://bitcoiner.guide/seed) provides an excellent option for calculating the checksum word. Download the latest version via their [GitHub repo](https://github.com/BitcoinQnA/seedtool). Like our Entropy Grid Generator, it works offline in an air-gapped browser.
+By the time we reach the 24th entry, the final (checksum) word that is calculated for us - in this case, 'pair'. In addition to my pattern, I need to memorise this word.
 
-![A screenshot of Seed Tool with the Seed Generation/Input section highlighted](/bw_docs_seed_tool_click_generate.png)
+![Screenshot of Final Word Calculator](/finalword.png)
+<caption>The Final Word tab allows you to calculate the checksum. It also has a Final Word Number feature.</caption>
 
-<caption>Click Seed Generation/Input</caption>
+In order to help make the memorisation of the final word even easier, the EGG includes a unique Final Word Number feature. This means that instead of needing to remember the word 'pair', I can just remember the number 5. I could even write this number down on my Entropy Grid - since on its own, it is meaningless and provides no clues about my final word without the other words.
 
-![A screenshot from seed tool selecting the Last Word Generator from the BIP39 Tools Menu](/bw_docs_seed_tool_last_word_generator_select.png)
+Users can, if necessary, use the scroll button at the end of the Final Word Number field to change the number to something more meaningful to them, but this also changes the final word itself. Therefore if you do change the number, the new checksum shown must be used to set-up your Border Wallet.
 
-<caption>Scroll down to Select a BIP39 Tool and select Last Word Generator</caption>
-
-Enter each of the four (or three) letter seed words in the correct order into the tool. Make sure you check each word carefully! Seed Tool will automatically suggest the longer version of the word, where applicable, as your enter the first four letters. By the time you reach the 24th entry, Seed Tool has automatically calculated and populated this field for you.
-
-![A screenshot from seed tool using the Last Word Generator](/bw_docs_seed_tool_last_word_generator.png)
-
-To introduce more entropy (randomness) can choose to "Flip the bits" and have it calculate a new checksum - there are 8 possible words that will be shown from a 24 word seed so the checksum could be different if you perform this exercise again, generating a new wallet. This is why you should record/memorise the checksum generated and also make a note of how you generated it in the space provided in the header of your Entropy Grid.
-
-#### SeedSigner
-
-SeedSigner is a great Bitcoin computer (aka 'Hardware Wallet' or 'HWW' or 'Signing Device'). Run as an open-source project with DIY assembly using off-the-shelf components, it provides a cheap, secure, fully air-gapped environment to work in with seed words.
-
-This is the screen that you need to generate the checksum from your seed words.
-
-![SeedSigner device displaying the menu](/bw_docs_seedsigner_menu.png)
+![Screenshot of Final Word Calculator](/finalwordnumber4.png)
+![Screenshot of Final Word Calculator](/finalwordnumber3.png)
+![Screenshot of Final Word Calculator](/finalwordnumber2.png)
+<caption>The Final Word Calculation feature allows you to remember a number instead of the checksum word itself. You can use this same part of the tool to remind yourself of the checksum word to apply when creating or restoring your Border Wallet.</caption>
 
 If you want to know more about Checksums, [Arman the Parman](https://armantheparman.com/dicev1/) provides his helpful deep-dive on this subject.
 
