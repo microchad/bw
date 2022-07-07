@@ -49,11 +49,11 @@ Did we mention that **the order which we reference each word is crucial**? Well,
 
 The EGG includes a feature for calculating the Final (checksum) Word.
 
-Scroll to the Final Word tab in the tool, and enter each of the four (or three) letter seed words in the correct order into the tool. Make sure you check each word carefully! By the time you reach the 24th word, the EGG has automatically calculated and populated this field for you.
+Scroll to the Final Word tab in the tool, and enter each of the four (or three) letter seed words in the correct order into the tool. Make sure you check each word carefully! By the time you reach the word, the EGG has automatically calculated and populated this field for you.
 
 <blockquote>The EGG will automatically suggest the longer version of the word, where applicable, as your enter the first four letters of it. **Select this longer word before moving to the next field**</blockquote>
 
-By the time we reach the 24th entry, the final (checksum) word that is calculated for us - in this case, 'pair'. In addition to my pattern, I need to memorise this word.
+By the time we reach the 24th entry, the final (checksum) word that is calculated from these seed words is 'pair'. In addition to my pattern, I need to memorise this word. However, I could choose to also remember its corresponding Final Word 'Number'.
 
 ![Screenshot of Final Word Calculator](/finalword.png)
 <caption>The Final Word tab allows you to calculate the checksum. It also has a Final Word Number feature.</caption>
