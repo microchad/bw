@@ -6,6 +6,6 @@ Inspired by Christopher Nolan's film Inception (2010), 'gridception' is the name
 
 By using one pattern or more across multiple Entropy Grids, gridception provides users with the ability to hide their master Border Wallet within an unlimited number of Entropy Grid layers. Each time to you do this - particularly if you apply your own randomness or idiosyncracies to the mix - you compound the difficulty for any would-be attackers.
 
-<quote>“What is the most resilient parasite? Bacteria? A virus? An intestinal worm? An idea. Resilient. Highly contagious. Once an idea has taken hold of the brain it’s almost impossible to eradicate” ~ Dom Cobb, Inception </quote>
+<blockquote>“What is the most resilient parasite? Bacteria? A virus? An intestinal worm? An idea. Resilient. Highly contagious. Once an idea has taken hold of the brain it’s almost impossible to eradicate” ~ Dom Cobb, Inception </blockquote>
 
 ![dom-cobb on Border Wallets](/dom-cobb.png)
