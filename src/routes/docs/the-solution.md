@@ -6,7 +6,7 @@ Border Wallets provide a method for memorising seed phrases using two components
 - User-generated pattern(s) or cell co-ordinates (a "Pattern)
 - The final (checksum) seed word or _number_*.
 
-> Combined, these three factors comprise your Border Wallet.
+**Combined, these three factors comprise your Border Wallet.***
 
 Using our offline, browser-based Entropy Grid Generator ('EGG') - users can generate their own entropically-secured, randomised grid of all 2048 BIP-39 compliant seed words, and then apply a memorable pattern or set of cell co-ordinates to it - which only they know - in order to create a wallet.
 
