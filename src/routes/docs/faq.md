@@ -4,7 +4,7 @@
 
 **A:** If you have a bad memory, a high-degree of physical security and political stability where you live then yes, they are! As explained by the Bitcoin Wiki [here](https://en.bitcoin.it/wiki/Brainwallet) "brainwallets are not recommended to be used in general because of fallible human memory. But in special situations they could be very useful, for example when fleeing a country as a refugee with only the clothes on your back". If you live in a political hot zone or shared accommodation, or if you travel around a lot (nomadic) or seek to find additional ways to carry your seed words with either in your home country or over international borders, then Border Wallets provides you with an easier and more reliable way of generating and memorising Bitcoin seed words vs traditional brain wallet methods, e.g. Memory Palaces. Border Wallets can also be used in unison with existing Bitcoin wallet set-ups to provide you with he option to memorise your wallet if your situation suddenly changes.
 
-It is worth noting that Border Wallets also have use cases beyond memorisation - as we explain elsewhere on this site.
+It is worth noting that Border Wallets also have use cases beyond memorisation (explained in our Use Cases sections).
 
 ## Q: How are Border Wallets different from Memory Palaces?
 
