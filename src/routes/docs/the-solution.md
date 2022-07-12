@@ -36,7 +36,7 @@ As there is essentially zero cost for generating Entropy Grids, users may choose
 
 #### Obfuscation & Gridception
 
-Our EGG tool gives users the ability to create Deterministic Entropy Grids, which can be re-generated using a recovery phrase. This feature unlocks the ability to introduce multi-factor grid solutions whereby your source Entropy Grid is encoded within other Entropy Grids; we call this [gridception](https://www.borderwallets.com/docs/gridception) - how deep it goes is up to you :)
+Our EGG tool gives users the ability to create Deterministic Entropy Grids, which can be re-generated using a recovery phrase. This feature unlocks the ability to introduce multi-factor grid solutions whereby your source Entropy Grid is encoded within other Entropy Grids; we call this [gridception](https://www.borderwallets.com/docs/gridception).
 
 ## Handling Seed Word randomisation
 
