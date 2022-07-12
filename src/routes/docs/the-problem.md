@@ -6,12 +6,12 @@ Since the introduction of BIP39, Bitcoiners have had the option to memorise the 
 
 Memorising -and reliably recalling- 24 completely unrelated words isn't easy, though, which means that most people create and store physical backups of those words instead of committing them to memory.
 
-Whilst this well-established approach is fine for those who are confident in their physical security set-up, it can be a big challenge for people living in shared or more fluid accommodation settings. For example, people with no fixed abode, those who travel or live in areas of conflict or war zones, e.g. Yemen, Donbas, Syria, or those living in other settings where storage of physical seed phrases may be subject to security, loss, damage or confiscation risks.
+Whilst this well-established approach is fine for those who are confident in their physical security set-up, it can be a big challenge for people living in shared or more fluid accommodation settings. For example, people with no fixed abode, those who travel or live in areas of conflict or war zones or those living in other settings where storage of physical seed phrases may be subject to security, loss, damage or confiscation risks.
 
 ![alt text](/tweet1.png)
 
-<caption>An example of how someone who lives in a shared property had their Bitcoin seed words taken</caption>
+<caption>An example of how someone recently had their Bitcoin seed words taken from their home</caption>
 
-The creation of Bitcoin, and Improvement Proposals such as BIP39, have transformed our ability to store and transport value over space and time. However, in the case of people who struggle to maintain their property rights in the physical domain or who move around a lot, paper or even steel backups can present storage and transportation challenges.
+The creation of Bitcoin, and Improvement Proposals such as BIP39, have transformed our ability to store and transport value over space and time. However, in the case of people who face difficulties in protecting their property rights in the physical domain or who move around a lot, full physical seed phrase backups can present storage and transportation challenges.
 
-> So we have created an easier and more reliable way of carrying Bitcoin seedphrases in your head.
+> So we have created an easier and more reliable way of carrying Bitcoin seed phrases in your head.
