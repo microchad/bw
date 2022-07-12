@@ -1,6 +1,6 @@
 # The Solution
 
-Border Wallets provide a method for memorising seed phrases using two components:
+Border Wallets provide a method for memorising seed phrases using three components:
 
 - A randomised grid of all 2048 seed words (an 'Entropy Grid')
 - User-generated pattern(s) or cell co-ordinates (a "Pattern)
