@@ -14,7 +14,7 @@ For example:
 - What happens if they are burgled? What if they have a fire? What if they accidentally toss your seedphrase out in the garbage? What if they move home?
 - What happens if they are compromised or ordered to disclose your keys as part of a state-sanctioned attack on individual rights?
 
-![Eve taking a bitcoin from the Tree of Self-Sovereignty](/tree-of-bitcoin.png)
+![Temptation](/temptation.jpeg)
 
 And, finally, how certain can you be that your relationship will never sour, never endure troughs as well as peaks, and that your wallet will be 100% safe, even if your relationship dynamics change? What if something that you don't expect to happen to your relationship happens? What happens to they struggle to pay the bills but can't help notice that Bitcoin's number go up? Are you absolutely certain that in all cases, your seedphrase will not be at risk?
 
