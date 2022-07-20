@@ -112,8 +112,31 @@
     </div>
   {/each}
 </div>
+<div class="videoWrapper">
+  <iframe
+    title="How to Easily Memorise a Bitcoin Seed Phrase - using Border Wallets &amp; Entropy Grids"
+    width="560"
+    height="315"
+    src="https://bitcointv.com/videos/embed/30df0582-b070-450d-8a9a-51fa0f8c463a"
+    frameborder="0"
+    allowfullscreen
+    sandbox="allow-same-origin allow-scripts allow-popups"
+  />
+</div>
 
 <style>
+  .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+  .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
   .bg-animation {
     width: 100%;
     height: calc(100vh - 96px);
