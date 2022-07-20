@@ -26,7 +26,7 @@ For Bitcoin, Border Wallets and Entropy Grids offer new applications and solutio
 
 ### How To Make a Border Wallet - Explainer Video
 
-<iframe title="How to Easily Memorise a Bitcoin Seed Phrase - using Border Wallets &amp; Entropy Grids" src="https://bitcointv.com/videos/embed/30df0582-b070-450d-8a9a-51fa0f8c463a?warningTitle=0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560" height="315" frameborder="0"></iframe>
+<iframe title="How to Easily Memorise a Bitcoin Seed Phrase - using Border Wallets &amp; Entropy Grids" src="https://bitcointv.com/videos/embed/30df0582-b070-450d-8a9a-51fa0f8c463a?start=0s&amp;warningTitle=0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560" height="315" frameborder="0"></iframe>
 
 ## Ready to Learn More?
 
