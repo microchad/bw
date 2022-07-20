@@ -24,9 +24,9 @@ For Bitcoin, Border Wallets and Entropy Grids offer new applications and solutio
 
 <caption>The best kind of Bitcoin wallet is one that's easy for the user to access and hard to lose, but easy for an attacker to miss and hard to access.</caption>
 
-### Overview
+### How To Make a Border Wallet - Explainer Video
 
-There will soon be a video here providing a walk-through of the problem we are trying to solve and the principles behind Border Wallets.
+<iframe title="How to Easily Memorise a Bitcoin Seed Phrase - using Border Wallets &amp; Entropy Grids" src="https://bitcointv.com/videos/embed/30df0582-b070-450d-8a9a-51fa0f8c463a?warningTitle=0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560" height="315" frameborder="0"></iframe>
 
 ## Ready?
 
