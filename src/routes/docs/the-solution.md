@@ -4,7 +4,7 @@ Border Wallets provide a method for memorising seed phrases using three componen
 
 - A randomised grid of all 2048 seed words (an 'Entropy Grid')
 - User-generated pattern(s) or cell co-ordinates (a "Pattern)
-- The final (checksum) seed word or _number_*.
+- The final (checksum) seed word or _number_\*.
 
 **Combined, these three factors comprise your Border Wallet.**
 

@@ -9,6 +9,7 @@ Scroll to the Final Word tab in the tool, and enter each of the four (or three) 
 By the time we reach the 24th entry, the final (checksum) word that is calculated for us - in this case, 'pair'. In addition to my pattern, I need to memorise this word.
 
 ![Screenshot of Final Word Calculator](/finalword.png)
+
 <caption>The Final Word tab allows you to calculate the checksum. It also has a Final Word Number feature.</caption>
 
 ### Final Word 'Number'
@@ -20,6 +21,7 @@ Users can, if necessary, use the scroll button at the end of the Final Word Numb
 ![Screenshot of Final Word Calculator](/finalwordnumber4.png)
 ![Screenshot of Final Word Calculator](/finalwordnumber3.png)
 ![Screenshot of Final Word Calculator](/finalwordnumber2.png)
+
 <caption>The Final Word Calculation feature allows you to remember a number instead of the checksum word itself. You can use this same part of the tool to remind yourself of the checksum word to apply when creating or restoring your Border Wallet.</caption>
 
 If you want to know more about Checksums, [Arman the Parman](https://armantheparman.com/dicev1/) provides a helpful deep-dive on this subject.

@@ -8,7 +8,7 @@ Primarily, the project is aimed at people who:
 - want to memorise their seed words but struggle to do so
 - want to carry their seed words with them at all times
 - have limited access to trusted 3rd parties
-- live in areas of conflict, warzones, etc.
+- live in areas of conflict, war zones, etc.
 - regularly travel or move around
 - have no permanent fixed abode.
 

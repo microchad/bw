@@ -30,14 +30,14 @@ Here I have chosen to honour Bitcoin using a pixelated version of its logo as my
 
 Did we mention that **the order which we reference each word is crucial**? Well, it's worth mentioning again. What we can see here is that the 23 seed words from this example, following our order of top-down, left to right, are:
 
-1.) busi    2.) enou   3.) neut
-4.) casi    5.) matr   6.) life
-7.) grit    8.) betw   9.) tren
-10.) dash   11.) quar  12.) evok
-13.) wash   14.) liza  15.) armo
-16.) trum   17.) exac  18.) arte
-19.) drip   20.) read  21.) elit
-21.) elit   22.) sing  23.) para
+1.) busi 2.) enou 3.) neut
+4.) casi 5.) matr 6.) life
+7.) grit 8.) betw 9.) tren
+10.) dash 11.) quar 12.) evok
+13.) wash 14.) liza 15.) armo
+16.) trum 17.) exac 18.) arte
+19.) drip 20.) read 21.) elit
+21.) elit 22.) sing 23.) para
 
 24.) [This is the checksum (final) word - which I calculate!]
 
@@ -56,6 +56,7 @@ Scroll to the Final Word tab in the tool, and enter each of the four (or three) 
 By the time we reach the 24th entry, the final (checksum) word that is calculated from these seed words is 'pair'. In addition to my pattern, I need to memorise this word. However, I could choose to also remember its corresponding Final Word 'Number'.
 
 ![Screenshot of Final Word Calculator](/finalword.png)
+
 <caption>The Final Word tab allows you to calculate the checksum. It also has a Final Word Number feature.</caption>
 
 ### Final Word 'Number'
@@ -67,6 +68,7 @@ Users can, if necessary, use the scroll button at the end of the Final Word Numb
 ![Screenshot of Final Word Calculator](/finalwordnumber4.png)
 ![Screenshot of Final Word Calculator](/finalwordnumber3.png)
 ![Screenshot of Final Word Calculator](/finalwordnumber2.png)
+
 <caption>The Final Word Calculation feature allows you to remember a number instead of the checksum word itself. You can use this same part of the tool to remind yourself of the checksum word to apply when creating or restoring your Border Wallet.</caption>
 
 If you want to know more about Checksums, [Arman the Parman](https://armantheparman.com/dicev1/) provides a helpful deep-dive on this subject.
