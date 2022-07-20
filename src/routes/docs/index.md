@@ -26,19 +26,8 @@ For Bitcoin, Border Wallets and Entropy Grids offer new applications and solutio
 
 ### How To Make a Border Wallet - Explainer Video
 
-<!DOCTYPE html>
-<html>
-   <head>
-      <title>HTML Video embed</title>
-   </head>
-   <body>
-      <p>Learn Eclipse</p>
-      <br />
-        <iframe title="How to Easily Memorise a Bitcoin Seed Phrase - using Border Wallets &amp; Entropy Grids" src="https://bitcointv.com/videos/embed           /30df0582-b070-450d-8a9a-51fa0f8c463a?warningTitle=0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560"               height="315" frameborder="0"></iframe>
-   </body>
-</html>
+<iframe title="How to Easily Memorise a Bitcoin Seed Phrase - using Border Wallets &amp; Entropy Grids" src="https://bitcointv.com/videos/embed           /30df0582-b070-450d-8a9a-51fa0f8c463a?warningTitle=0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560"               height="315" frameborder="0"></iframe>
 
+## Let's Start!
 
-## Ready?
-
-Let's take a look at the problems we are trying to solve, the solution we have created, and some of The Science™️ behind why patterns beat words when it comes to memorisation and recall.
+Let's take a deeper look at the problems we are trying to solve, the solution we have created, some of The Science™️ behind why patterns beat words when it comes to memorisation and recall, and how to create your own Border Wallet.
