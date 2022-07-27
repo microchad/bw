@@ -88,6 +88,45 @@
   }
 </script>
 
+<svelte:head>
+  <!-- Primary Meta Tags -->
+  <title>Border Wallets - A new way to quickly and reliably memorise Bitcoin seed phrases.</title>
+  <meta
+    name="title"
+    content="Border Wallets - A new way to quickly and reliably memorise Bitcoin seed phrases."
+  />
+  <meta
+    name="description"
+    content="Memorising Bitcoin seed phrases is now significantly easier with user-generated patterns & no sacrificed entropy. By exploiting a phenomenon known as the Picture Superiority Effect"
+  />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.borderwallets.com/" />
+  <meta
+    property="og:title"
+    content="Border Wallets - A new way to quickly and reliably memorise Bitcoin seed phrases."
+  />
+  <meta
+    property="og:description"
+    content="Memorising Bitcoin seed phrases is now significantly easier with user-generated patterns & no sacrificed entropy. By exploiting a phenomenon known as the Picture Superiority Effect"
+  />
+  <meta property="og:image" content="/BorderWallets.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://www.borderwallets.com/" />
+  <meta
+    property="twitter:title"
+    content="Border Wallets - A new way to quickly and reliably memorise Bitcoin seed phrases."
+  />
+  <meta
+    property="twitter:description"
+    content="Memorising Bitcoin seed phrases is now significantly easier with user-generated patterns & no sacrificed entropy. By exploiting a phenomenon known as the Picture Superiority Effect"
+  />
+  <meta property="twitter:image" content="/BorderWallets.png" />
+</svelte:head>
+
 <div class="bg-animation">
   <Grid tableData={gridArray} />
   <div class="overlay">

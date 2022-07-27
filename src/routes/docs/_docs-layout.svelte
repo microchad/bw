@@ -13,9 +13,40 @@
   pageList.unshift('Start');
   let pageIndex = pageList.findIndex((t = '') => urlify(t) === $page.url.pathname.slice(6));
   pageIndex = pageIndex < 0 ? 0 : pageIndex;
+  export let currentPage = pageList[pageIndex];
   export let previousPage = pageIndex === 0 ? '' : pageList[pageIndex - 1];
   export let nextPage = pageIndex >= pageList.length - 1 ? '' : pageList[pageIndex + 1];
 </script>
+
+<svelte:head>
+  <!-- Primary Meta Tags -->
+  <title>Border Wallets Documentation - {currentPage}</title>
+  <meta name="title" content="Border Wallets Documentation - {currentPage}" />
+  <meta
+    name="description"
+    content="Memorising Bitcoin seed phrases is now significantly easier with user-generated patterns & no sacrificed entropy. By exploiting a phenomenon known as the Picture Superiority Effect"
+  />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.borderwallets.com/" />
+  <meta property="og:title" content="Border Wallets Documentation - {currentPage}" />
+  <meta
+    property="og:description"
+    content="Memorising Bitcoin seed phrases is now significantly easier with user-generated patterns & no sacrificed entropy. By exploiting a phenomenon known as the Picture Superiority Effect"
+  />
+  <meta property="og:image" content="/BorderWallets.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://www.borderwallets.com/" />
+  <meta property="twitter:title" content="Border Wallets Documentation - {currentPage}" />
+  <meta
+    property="twitter:description"
+    content="Memorising Bitcoin seed phrases is now significantly easier with user-generated patterns & no sacrificed entropy. By exploiting a phenomenon known as the Picture Superiority Effect"
+  />
+  <meta property="twitter:image" content="/{urlify(currentPage)}.png" />
+</svelte:head>
 
 <slot />
 
