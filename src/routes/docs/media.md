@@ -5,4 +5,4 @@
 
 
 ### Bitcoin Monthly on the Bit Buy Bit Podcast with Max, Antomous & Brother Rabbit
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5gwZnT5qogTh3uxDqNmNRr?utm_source=generator&t=8m0s" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5gwZnT5qogTh3uxDqNmNRr?utm_source=generator&t=480" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
