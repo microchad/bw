@@ -35,7 +35,7 @@
     property="og:description"
     content="Memorising Bitcoin seed phrases is now significantly easier with user-generated patterns & no sacrificed entropy. By exploiting a phenomenon known as the Picture Superiority Effect"
   />
-  <meta property="og:image" content="/BorderWallets.png" />
+  <meta property="og:image" content="/{urlify(currentPage)}.png" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
