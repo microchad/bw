@@ -93,4 +93,4 @@ Your unmarked Entropy Grid - which essentially serves as a map to buried treasur
 
 However, you may deem it appropriate to keep a copy of your pattern, stored with the same degree of care that you would give a full seed work backup, to serve as either an aide-memoire or to allow someone like your next-of-kin to recover your funds should something happen to you. The choice is yours.
 
-If you choose to store digital copies of these, you might consider encrypting the files. The Entropy Grid Generator contains a tool for encrypting files which we explain [here](/encryption-and-decryption).
+If you choose to store digital copies of these, you might consider encrypting the files. The Entropy Grid Generator contains a tool for encrypting files which we explain [here](https://borderwallets.com/docs/encryption-and-decryption).
