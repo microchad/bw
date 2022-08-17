@@ -30,25 +30,25 @@
 
 ## Bitcoin Magazine
 
-(US) Border Wallets: A New Way to Create and Easily Memorize Bitcoin Seed Phrases
+(US) Border Wallets: A New Way to Create and Easily Memorize Bitcoin Seed Phrases<br>
 https://bitcoinmagazine.com/technical/border-wallets-help-users-memorize-bitcoin-seed-phrases
 
-(German/Deutsche) Border Wallets: Eine neue Methode zum Erstellen und dem Auswendiglernen von Bitcoin Seedwörtern
+(German/Deutsche) Border Wallets: Eine neue Methode zum Erstellen und dem Auswendiglernen von Bitcoin Seedwörtern<br>
 https://europeanbitcoiners.com/border-wallets-eine-neue-methode-zum-erstellen-und-dem-einfachen-auswendiglernen-von-bitcoin-seedphrasen/
 
-(French) Border Wallets : Une nouvelle Façon de Créer et de Stocker Facilement des Mots-Clés en Bitcoins
+(French) Border Wallets : Une nouvelle Façon de Créer et de Stocker Facilement des Mots-Clés en Bitcoins<br>
 https://europeanbitcoiners.com/border-wallets-une-nouvelle-facon-de-creer-et-de-stocker-facilement-des-mots-cles-en-bitcoins/
 
-(Portuguese) BorderWallets - Seed para atravessar fronteiras
+(Portuguese) BorderWallets - Seed para atravessar fronteiras<br>
 https://www.youtube-nocookie.com/embed/OPqKpRdB0xI
 
-(Russian) Border Wallet: новый способ создавать и легко запоминать сид-фразы Биткоина
+(Russian) Border Wallet: новый способ создавать и легко запоминать сид-фразы Биткоина<br>
 https://ru.bitcoinmagazine.com/article/border-wallet-novyy-sposob-sozdavat-i-legko-zapominat-sid-frazy-bitkoina
 
-(Ukrainian) Border Wallet: новий спосіб створювати та легко запам’ятовувати сід-фрази Біткоїна
+(Ukrainian) Border Wallet: новий спосіб створювати та легко запам’ятовувати сід-фрази Біткоїна<br>
 https://ua.bitcoinmagazine.com/article/border-wallet-novyy-sposib-stvoryuvaty-ta-lehko-zapamyatovuvaty-sid-frazy-bitkoyina
 
 ## Nasdaq.com
 
-Border Wallets: A New Way to Create and Easily Memorize Bitcoin Seed Phrases
+Border Wallets: A New Way to Create and Easily Memorize Bitcoin Seed Phrases<br>
 https://www.nasdaq.com/articles/border-wallets%3A-a-new-way-to-create-and-easily-memorize-bitcoin-seed-phrases
