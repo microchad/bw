@@ -1,4 +1,4 @@
-# Media Appearances + Features
+# Media Appearances, Features & Articles
 
 ### Rabbit Hole Recap Ep.212 - Marty Bent & Matt Odell
 
