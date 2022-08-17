@@ -34,16 +34,16 @@
 
 ## Bitcoin Magazine
 
-(US) Border Wallets: A New Way to Create and Easily Memorize Bitcoin Seed Phrases<br>
+(English) Border Wallets: A New Way to Create and Easily Memorize Bitcoin Seed Phrases<br>
 https://bitcoinmagazine.com/technical/border-wallets-help-users-memorize-bitcoin-seed-phrases
 
-(German/Deutsche) Border Wallets: Eine neue Methode zum Erstellen und dem Auswendiglernen von Bitcoin Seedwörtern<br>
+(German) Border Wallets: Eine neue Methode zum Erstellen und dem Auswendiglernen von Bitcoin Seedwörtern<br>
 https://europeanbitcoiners.com/border-wallets-eine-neue-methode-zum-erstellen-und-dem-einfachen-auswendiglernen-von-bitcoin-seedphrasen/
 
 (French) Border Wallets : Une nouvelle Façon de Créer et de Stocker Facilement des Mots-Clés en Bitcoins<br>
 https://europeanbitcoiners.com/border-wallets-une-nouvelle-facon-de-creer-et-de-stocker-facilement-des-mots-cles-en-bitcoins/
 
-(Portuguese) BorderWallets - Seed para atravessar fronteiras<br>
+(Portuguese) Border Wallets - Seed para atravessar fronteiras<br>
 https://www.youtube-nocookie.com/embed/OPqKpRdB0xI
 
 (Russian) Border Wallet: новый способ создавать и легко запоминать сид-фразы Биткоина<br>
