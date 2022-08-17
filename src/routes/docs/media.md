@@ -6,7 +6,7 @@
 
 ### Bit-Buy-Bit podcast - Border Wallets, Bitcoin not buttcoin - Demonetising butt plugs with MTC
 
-<iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/23937946/height/90/theme/custom/thumbnail/no/direction/backward/render-playlist/no/custom-color/000000/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0uXY9CcnZ5dU8L7o1YLaHF?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 ### Rabbit Hole Recap Ep.209 - Marty Bent & Matt Odell
 
