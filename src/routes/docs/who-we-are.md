@@ -1,8 +1,8 @@
 # Who We Are
 
-Border Wallets was built in 2022 by [MTC](https://mtcfyi.keybase.pub) and [SuperPhatArrow](github.com/superphatarrow).
+Border Wallets was built in 2022 by [MTC](https://mtcfyi.keybase.pub) and [SuperPhatArrow](https://github.com/superphatarrow).
 
-Twitter - [MTC](twitter.com/ghostofmtc) and [SuperPhatArrow](twitter.com/superphatarrow).
+Twitter - [MTC](https://twitter.com/ghostofmtc) and [SuperPhatArrow](https://twitter.com/superphatarrow).
 
 DONATE:<br>
 SPA [+purplefire896 ](https://paynym.is/+purplefire896) - PayNym Bot<br>
