@@ -28,6 +28,10 @@
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5gwZnT5qogTh3uxDqNmNRr?utm_source=generator&t=460" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
+### Nodesignal-Techboost E04, Updates Juli/August 2022 - Calso, Thorsten und Antomous mit Gmblr247
+
+<iframe src="https://anchor.fm/nodesignal/embed/episodes/Nodesignal-Techboost---E04---Updates-Juli--August-2022-e1nu0t4/a-a8hmip3" height="152" width="100%" frameborder="0" scrolling="no"></iframe>
+
 
 
 # Articles
