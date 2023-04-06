@@ -7,7 +7,7 @@ Here are some tips for ensuring you maximise the security of your Border Wallet.
 - Download and use the Entropy Grid Generator on an air-gapped, offline computer.
 - Number & date each Entropy Grid you generate. This will help you later if you generate multiple grids. Spaces are provided in the headers for making notes.
 - Devise a pattern or mark cell co-ordinates for your Border Wallet on the blank Pattern Grid before you commit it to your Entropy Grid - this avoids word bias.
-- Do not use the same cell more than once.
+- Do not use the same cell more than once. If you do, you will not be able to import your entropy grid into Sparrow Wallet. However, if your pattern does use the same cell more than once, then you can still use the EGG.
 - The order in which you select cells offers an additional layer of security and attack-protection. For 11 cell patterns, there are 39 million possible combinations for the order; for 23 cell patterns, there are 258 quintillion order combinations.
 - The more Entropy Grids you generate, the harder it will be for an attacker to know which one(s) you have used. More grids = more noise; more noise = more work needed to attack. You must remember which ones you have used, though!
 - You should be the only one who knows the Pattern that provides the correct counterpart to your Entropy Grid, unless you trust any 3rd parties in the same way you would trust them with your private keys.
