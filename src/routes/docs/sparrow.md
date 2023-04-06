@@ -1,4 +1,4 @@
-![Sparrow + Entropy Grid](/sparrow-wallet-BorderWallets1.7.4.png)
+![Sparrow + Entropy Grid](/[sparrow-wallet-Border%20Wallets%201.7.4.png])
 <caption>Border Wallets is now a feature of Sparrow Wallet v 1.7.4</caption>
 
 # Sparrow Wallet Integration
