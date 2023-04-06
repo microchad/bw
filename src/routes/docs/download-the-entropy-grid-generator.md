@@ -8,7 +8,18 @@ Download the latest files below or check out the older [releases](https://github
 - **Hash File:** [borderwallets.txt](https://github.com/microchad/borderwallets/releases/latest/download/borderwallets.txt)
 - **Signature File:** [borderwallets.txt.asc](https://github.com/microchad/borderwallets/releases/latest/download/borderwallets.txt.asc)
 
-# Verifying the Release
+## Sparrow Wallet Integration
+
+![Sparrow + Entropy Grid](/sparrow.png)
+<caption>Border Wallets is now a feature of Sparrow Wallet v 1.7.4</caption>
+
+# Sparrow Wallet Integration
+
+Sparrow Wallet has now implemented Border Wallets natively in its world-class desktop application. If you want the best experience for creating, saving, regenerating and using Border Wallets and Entropy Grids, this is our recommended approach.
+
+Download it [here](https://sparrowwallet.com).
+
+# Verifying the Border Wallets EGG Release
 
 _While the following steps may seem intimidating to people that are not used to working in the command line, they are extremely important for your security and not as daunting if you just take them one step at a time._
 
