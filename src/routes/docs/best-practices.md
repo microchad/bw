@@ -30,18 +30,19 @@ Here are some tips for ensuring you maximise the security of your Border Wallet.
 
 > ⚔️ FIGHT MODE TIPS
 
-These tips are aimed at users whose physical security is relatively strong. Following the General Tips above, you may wish to consider the following:
+These tips are aimed at users whose physical security is relatively strong. As well as following the General Tips above, you may wish to consider these tips:
 
 - Keep your Entropy Grids secret for as long as practically possible - if you don't need to share it with someone - e.g. legacy handover, etc. then don't.
 - Ideally, treat your Entropy Grid - and especially any corresponding patterns that you generate - with the same care and OpSec attentiveness as you would treat a full seed phrase backup.
 
 > 🏃‍♂️ FLIGHT MODE TIPS
 
-These tips are aimed at users whose physical/accommodation security is weak, who live in a political hot zone or who are often on the move with no permanent fixed abode. Following the General Tips above, you may wish to consider the following:
+These tips are aimed at users whose physical/accommodation security is weak, who live in a political hot zone or who are often on the move with no permanent fixed abode. As well as following the General Tips above, you may wish to consider these tips:
 
 - When considering where to store your Entropy Grids, aim to strike an acceptable balance between a place(s) that minimises its attack surface and accessibility. Make it both securely stored but retrievable in a hurry.
 - Consider how you will be able to successfully access your Entropy Grid and recreate your Border Wallet when you need it.
 - Prepare for the worst (e.g. confiscation, theft, fire).
+- Consider using the Gridception concept as part of your set-up.
 - Consider whether minimising the amount of time your Entropy Grid is stored in any one place would reduce its chances of being discovered.
 - If you want to keep a physical copy of your Entropy Grid with you, consider making it available to yourself elsewhere, e.g. via digital storage, in case you lose your physical copy. Encrypted storage is the most secure method for storing your grids, but you must remember the passwords to access them.
 
