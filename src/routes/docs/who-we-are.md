@@ -1,6 +1,6 @@
 # Who We Are
 
-Border Wallets was built in 2022 by [MTC](https://mtc.bio.site) and [SuperPhatArrow](https://github.com/superphatarrow).<br>
+Border Wallets was built in 2022 by [MTC](https://bio.site/mtc) and [SuperPhatArrow](https://github.com/superphatarrow).<br>
 
 Nostr - [MTC](https://nostrplebs.com/s/mtc) and [SPA](https://snort.social/p/npub1fguyv0p2whngcfzpdemjpganhmamp6ngwt26q35jcw0p368jmjkqy27896).<br>
 Twitter - [MTC](https://twitter.com/ghostofmtc) and [SuperPhatArrow](https://twitter.com/superphatarrow).<br>
