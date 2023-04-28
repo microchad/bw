@@ -1,5 +1,9 @@
 # Media Appearances, Features & Articles
 
+### BTC Sessions - Border Wallets - Storing Bitcoin In Your Brain
+
+<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/wHQrvCGVkTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Rabbit Hole Recap Ep.212 - Marty Bent & Matt Odell
 
 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/UWcbblfRjNU?start=6372" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
