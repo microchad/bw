@@ -5,5 +5,6 @@ Border Wallets was built in 2022 by [MTC](https://mtcfyi.keybase.pub) and [Super
 Twitter - [MTC](https://twitter.com/ghostofmtc) and [SuperPhatArrow](https://twitter.com/superphatarrow).
 
 DONATE:<br>
+Border Wallets project [https://getalby.com/borderwallets](getalby.com/borderwallets)
 SPA [+purplefire896 ](https://paynym.is/+purplefire896) (PayNym Bot) or plusmaid28@walletofsatoshi.com (LNURL)<br>
 MTC: [getalby.com/mtc](https://getalby.com/mtc) (LN) or PayNym +roundfield87f
