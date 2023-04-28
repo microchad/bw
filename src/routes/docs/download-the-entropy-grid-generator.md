@@ -1,6 +1,13 @@
-# Download the Entropy Grid Generator
+# Entropy Grid Generators
 
-Let's dive in!
+There are currently 3 options for natively working with the Border Wallets tool - which we call the EGG (Entropy Grid Generator).
+
+1. The original EGG. Instructions for using this are the focus on this website. shown below.
+2. Sparrow Wallet's Border Wallets integration available [here](https://github.com/sparrowwallet/sparrow/releases). A video demonstration of how to use this is available [here](https://www.youtube.com/watch?v=wHQrvCGVkTw) courtesy of BTC Sessions.
+3. The DTails integration by Desobediente Tecnológico (coming soon [here](https://github.com/DesobedienteTecnologico/dtails)).
+
+
+## 1. Downloading the EGG (original Entropy Grid Generator)
 
 Download the latest files below or check out the older [releases](https://github.com/microchad/borderwallets/releases)
 
@@ -9,7 +16,7 @@ Download the latest files below or check out the older [releases](https://github
 - **Signature File:** [borderwallets.txt.asc](https://github.com/microchad/borderwallets/releases/latest/download/borderwallets.txt.asc)
 
 
-# Verifying the Border Wallets EGG Release
+## Verifying the Border Wallets EGG Release
 
 _While the following steps may seem intimidating to people that are not used to working in the command line, they are extremely important for your security and not as daunting if you just take them one step at a time._
 
