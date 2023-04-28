@@ -2,7 +2,7 @@
 
 There are currently 3 options for natively working with the Border Wallets tool - which we call the EGG (Entropy Grid Generator).
 
-1. The original EGG. Instructions for using this are the focus on this website. shown below.
+1. The original EGG. Instructions for using this are the focus on this website, and start in section 1 below.
 2. Sparrow Wallet's Border Wallets integration available [here](https://github.com/sparrowwallet/sparrow/releases). A video demonstration of how to use this is available [here](https://www.youtube.com/watch?v=wHQrvCGVkTw) courtesy of BTC Sessions.
 3. The DTails integration by Desobediente Tecnológico (coming soon [here](https://github.com/DesobedienteTecnologico/dtails)).
 
