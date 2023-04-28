@@ -6,4 +6,4 @@ Twitter - [MTC](https://twitter.com/ghostofmtc) and [SuperPhatArrow](https://twi
 
 DONATE:<br>
 SPA [+purplefire896 ](https://paynym.is/+purplefire896) (PayNym Bot) or plusmaid28@walletofsatoshi.com (LNURL)<br>
-MTC: [getalby.com/mtc](https://getalby.com/mtc) (LN) or [+roundfield87f] (PayNym)
+MTC: [getalby.com/mtc](https://getalby.com/mtc) (LN) or PayNym +roundfield87f
