@@ -60,7 +60,14 @@ https://ru.bitcoinmagazine.com/article/border-wallet-novyy-sposob-sozdavat-i-leg
 (Ukrainian) Border Wallet: новий спосіб створювати та легко запам’ятовувати сід-фрази Біткоїна<br>
 https://ua.bitcoinmagazine.com/article/border-wallet-novyy-sposib-stvoryuvaty-ta-lehko-zapamyatovuvaty-sid-frazy-bitkoyina
 
+## Sparrow Wallet Releases Native Border Wallets Feature
+
+(Spanish) Sparrow Wallet 1.7.4 añade privacidad y semillas de recuperación memorizables. La Border Wallets, nueva característica en Sparrow, permite generar semillas de recuperación basadas en un patrón fácil de recordar.
+https://www.criptonoticias.com/tecnologia/sparrow-wallet-1-7-anade-privacidad-semillas-memorizables/
+
 ## Nasdaq.com
 
 Border Wallets: A New Way to Create and Easily Memorize Bitcoin Seed Phrases<br>
 https://www.nasdaq.com/articles/border-wallets%3A-a-new-way-to-create-and-easily-memorize-bitcoin-seed-phrases
+
+
