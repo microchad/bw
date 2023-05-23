@@ -62,10 +62,10 @@ https://ua.bitcoinmagazine.com/article/border-wallet-novyy-sposib-stvoryuvaty-ta
 
 ## Sparrow Wallet Releases Native Border Wallets Feature
 
-(English) Sparrow Wallet v1.7.4: Border Wallets For Memorizable Seeds
+(English) Sparrow Wallet v1.7.4: Border Wallets For Memorizable Seeds<br>
 https://www.nobsbitcoin.com/sparrow-v1-7-4-released/
 
-(Spanish) Sparrow Wallet 1.7.4 añade privacidad y semillas de recuperación memorizables. La Border Wallets, nueva característica en Sparrow, permite generar semillas de recuperación basadas en un patrón fácil de recordar.
+(Spanish) Sparrow Wallet 1.7.4 añade privacidad y semillas de recuperación memorizables<br>
 https://www.criptonoticias.com/tecnologia/sparrow-wallet-1-7-anade-privacidad-semillas-memorizables/
 
 ## Nasdaq.com
