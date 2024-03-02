@@ -1,4 +1,4 @@
-# Who We Are
+# Who We Are / Donate
 
 Border Wallets was built in 2022 by [MTC](https://bio.site/mtc) and [SuperPhatArrow](https://github.com/superphatarrow)<br>
 
