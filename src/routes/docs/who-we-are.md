@@ -6,6 +6,6 @@ Nostr - [MTC](https://nostrplebs.com/s/mtc) and [SuperPhatArrow](https://snort.s
 Twitter - [MTC](https://twitter.com/ghostofmtc) and [SuperPhatArrow](https://twitter.com/superphatarrow)<br>
 
 DONATE:<br>
-Border Wallets project [getalby.com/borderwallets](getalby.com/borderwallets)<br>
+Border Wallets project [https://getalby.com/borderwallets](https://getalby.com/borderwallets)<br>
+MTC: [+roundfield87f](https://paynym.is/+roundfield87f) [getalby.com/mtc](https://getalby.com/mtc) (LN) (PayNym Bot) or hodl@walletofsatoshi.com (LNURL)<br>
 SPA [+purplefire896 ](https://paynym.is/+purplefire896) (PayNym Bot) or plusmaid28@walletofsatoshi.com (LNURL)<br>
-MTC: [getalby.com/mtc](https://getalby.com/mtc) (LN) or PayNym +roundfield87f
